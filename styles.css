@@ -31,7 +31,22 @@ th {
   background-color: #2896BC;
   color: white;
 }
+
 .Red {
+  background-color: #EB4130;
+  color: white;
+}
+.Blue:hover {
+  background-color: #1A6F8D;
+}
+.Red:hover {
+  background-color: #C32A1A;
+}
+body.dragging .Blue:hover {
+  background-color: #2896BC;
+  color: white;
+}
+body.dragging.Red:hover {
   background-color: #EB4130;
   color: white;
 }
@@ -125,14 +140,5 @@ width: 300px;
   vertical-align: middle;
 }
 .team-row {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.team-row.dragging {
-  opacity: 0.5;  /* Make the dragged row semi-transparent */
-  transform: scale(1.05);  /* Slightly enlarge the row */
-}
-
-.team-row.dragging-over {
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Add shadow to emphasize the drop zone */
+  transition: transform 0.05s ease, box-shadow 0.1s ease background-color 0.05s ease;  /* Smooth transition for drag effects */
 }

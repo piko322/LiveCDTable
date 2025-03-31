@@ -1,42 +1,18 @@
 let activeChampions = [];
-let teamAssignments = {
-    Blue: [],
-    Red: []
-};
+let teamAssignments = { Blue: [], Red: [] };
 let championOrder = [];
 let cooldownFile;
 let cooldowns = {};
 let championNames = [];
 let initialized = false;
-
 let championSuggestions = [];
 
-function assignTeam(champion, team) {
-    if (team === 'Blue') {
-        if (teamAssignments.Blue.length < 5) {
-            teamAssignments.Blue.push(champion);
-        } else {
-            throw new Error("Blue team is full.");
-        }
-    } else if (team === 'Red') {
-        if (teamAssignments.Red.length < 5) {
-            teamAssignments.Red.push(champion);
-        } else {
-            throw new Error("Red team is full.");
-        }
-    } else {
-        throw new Error("Invalid team. Use 'Blue' or 'Red'.");
-    }
-}
-
+// Fetch data from manifest and cooldown file
 async function initialize() {
-    // Fetch the manifest file to get the path to most recent version data
     const response = await fetch('manifest.json');
     const data = await response.json();
     cooldownFile = data.currentFile;
-    console.log("In: data/"+cooldownFile);
 
-    // Fetch the cooldown file
     await fetch('data/' + cooldownFile)
         .then(response => response.json())
         .then(data => {
@@ -45,10 +21,7 @@ async function initialize() {
             console.log("Champion Names: ", championNames);
         })
         .catch(error => console.error('Error fetching cooldown file:', error));
-    
-    // Mark initialization as complete
-    const statusMessage = document.getElementById('statusMessage');
-    statusMessage.textContent = ""
+    document.getElementById('statusMessage').textContent = "";
     initialized = true;
 }
 
@@ -56,7 +29,8 @@ initialize().then(() => {
     console.log("Initialization complete.");
 });
 
-document.addEventListener('DOMContentLoaded', async () => {
+// Search bar functionality
+document.addEventListener('DOMContentLoaded', () => {
     const searchBar = document.getElementById('searchBar');
     const suggestionsList = document.getElementById('suggestionsList');
 
@@ -67,13 +41,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function showSuggestions(input) {
-        let suggestions = [];
-        suggestionsList.innerHTML = ''; // Clear previous suggestions
+        suggestionsList.innerHTML = '';
         championSuggestions = [];
 
-        // Hide the suggestions list if the input is empty
         if (input.trim().length === 0) {
-            console.log("Input is empty, hiding suggestions.");
             clearSearch();
             return;
         }
@@ -84,51 +55,40 @@ document.addEventListener('DOMContentLoaded', async () => {
             .filter(champion => !activeChampions.includes(champion))
             .slice(0, 5);
 
-        // console.log("Filtered suggestions: ", suggestions);
         if (suggestions.length === 0) {
-            console.log("No suggestions found.");
-            suggestionsList.innerHTML = '';
-            return;
+        return;
         }
 
         suggestions.forEach(suggestion => {
             const li = document.createElement('li');
             const iconUrl = cooldowns[suggestion].champIcon;
-            li.innerHTML = `<img id="suggestionIcon" src="${iconUrl}" alt="${suggestion}"> ${suggestion}`;
+            li.innerHTML = `<img class="suggestionIcon" src="${iconUrl}" alt="${suggestion}"> ${suggestion}`;
             li.addEventListener('click', () => {
                 clearSearch();
                 if (!activeChampions.includes(suggestion) && activeChampions.length < 10) {
                     activeChampions.push(suggestion);
                     championOrder.push(suggestion);
                     updateTable();
-                    console.log("Active Champions: ", activeChampions);
                 }
             });
             championSuggestions.push(suggestion);
             suggestionsList.appendChild(li);
         });
-
     }
 
     searchBar.addEventListener('input', () => {
-        // console.log("Input value: ", searchBar.value);
-        showSuggestions(searchBar.value)
+        showSuggestions(searchBar.value);
     });
 
     searchBar.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
-            // console.log("Enter key pressed, current input: ", searchBar.value);
-            // console.log("Suggestions: ", championSuggestions);
             if (championSuggestions.length > 0) {
-                const selectedChampion = championSuggestions[0]; // Select the first suggestion
+                const selectedChampion = championSuggestions[0];
                 if (!activeChampions.includes(selectedChampion) && activeChampions.length < 10) {
                     activeChampions.push(selectedChampion);
                     championOrder.push(selectedChampion);
                     updateTable();
-                    // console.log("Active Champions: ", activeChampions);
                 }
-            } else {
-                console.log("No suggestions available.");
             }
             clearSearch();
         }
@@ -138,26 +98,24 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!searchBar.contains(e.target) && !suggestionsList.contains(e.target)) {
             clearSearch();
         }
-    })
-
-
+    });
 });
 
+// Update the table with champion data
 function updateTable() {
     const table = document.getElementById('cooldownTable');
+    table.style.display = 'inline-table';
     const blueTeamBody = document.getElementById('Blue');
     const redTeamBody = document.getElementById('Red');
-    
+
     blueTeamBody.innerHTML = '';
     redTeamBody.innerHTML = '';
-    table.style.display = 'inline-table';
 
-    if (activeChampions.length === 0) {
-        return;
-    }
+    if (activeChampions.length === 0) return;
 
     teamAssignments = { Blue: [], Red: [] };
 
+    // Reassign the teams based on row index
     championOrder.forEach((champion, index) => {
         const team = index < 5 ? 'Blue' : 'Red';
         teamAssignments[team].push(champion);
@@ -166,7 +124,6 @@ function updateTable() {
             const data = cooldowns[champion];
             const row = document.createElement('tr');
             row.className = `team-row ${team}`;
-            row.draggable = true;
             row.dataset.champion = champion;
 
             row.innerHTML = `
@@ -176,53 +133,9 @@ function updateTable() {
                 <td>${data.W || 'N/A'}</td>
                 <td>${data.E || 'N/A'}</td>
                 <td>${data.R || 'N/A'}</td>
-                <td class="${team}">${team}</td>
             `;
 
-            row.addEventListener('dragstart', (e) => {
-                draggedRow = row;
-                e.dataTransfer.effectAllowed = "move";
-                row.classList.add('dragging');
-                e.dataTransfer.setDragImage(new Image(), 0, 0);
-            });
-
-            row.addEventListener('dragover', (e) => {
-                e.preventDefault();
-                const hoveringRow = e.target.closest('tr');
-                if (hoveringRow && hoveringRow !== draggedRow) {
-                    const bounding = hoveringRow.getBoundingClientRect();
-                    const offset = e.clientY - bounding.top;
-                    if (offset > bounding.height / 2) {
-                        hoveringRow.after(draggedRow);
-                    } else {
-                        hoveringRow.before(draggedRow);
-                    }
-                    updateTeamColor();
-                }
-            });
-            row.addEventListener('dragenter', (e) => {
-                const hoveringRow = e.target.closest('tr');
-                if (hoveringRow && hoveringRow !== draggedRow) {
-                    hoveringRow.classList.add('dragging-over')
-                }
-            });
-
-            row.addEventListener('dragleave', (e) => {
-                const hoveringRow = e.target.closest('tr');
-                if (hoveringRow && hoveringRow !== draggedRow) {
-                    hoveringRow.classList.remove('dragging-over')
-                }
-            });
-
-            row.addEventListener('dragend', () => {
-                draggedRow.classList.remove('dragging');
-                const allRows = [...blueTeamBody.getElementsByTagName('tr'), ...redTeamBody.getElementsByTagName('tr')];
-                allRows.forEach(row => row.classList.remove('dragging-over')); // Remove the dragging-over class after drag ends
-                draggedRow = null;
-                updateChampionOrder();
-                updateTable(); // Update teams dynamically after drag
-            });
-
+            // Append to the corresponding tbody
             if (team === 'Blue') {
                 blueTeamBody.appendChild(row);
             } else {
@@ -231,42 +144,70 @@ function updateTable() {
         }
     });
 
-    updateTeamAssignments();
+    // Initialize Sortable on both team bodies
+    initializeSortable();
 }
 
-function updateTeamColor() {
-    const rows = [...document.querySelectorAll('.team-row')];
-    rows.forEach((row,index) => {
-        if (index < 5) {
-            row.classList.remove('Red');
-            row.classList.add('Blue');
-            row.lastElementChild.textContent = 'Blue';
-        } else {
-            row.classList.remove('Blue');
-            row.classList.add('Red');
-            row.lastElementChild.textContent = 'Red';
+// Initialize or reinitialize Sortable for the Blue and Red team table bodies
+function initializeSortable() {
+    const blueTeamBody = document.getElementById('Blue');
+    const redTeamBody = document.getElementById('Red');
+
+    // Create Sortable instances for both teams that share a group.
+    new Sortable(blueTeamBody, {
+        group: 'shared',
+        animation: 50,
+        onStart: function (e) {
+            document.body.classList.add('dragging');
+            e.item.addEventListener('dragstart', (event) => {
+            event.dataTransfer.setDragImage(new Image(), 0, 0)
+            })
+        },
+        onSort: updateAfterSort,
+        onEnd: function (e) {
+            document.body.classList.remove('dragging');
         }
-    })
-
-function updateChampionOrder() {
-    const blueRows = document.querySelectorAll("#Blue tr.team-row");
-    const redRows = document.querySelectorAll("#Red tr.team-row");
-    
-    championOrder = [...blueRows, ...redRows].map(row => row.dataset.champion);
-}
-
-function updateTeamAssignments() {
-    const table = document.getElementById('cooldownTable');
-    const rows = [...table.getElementsByTagName('tr')].filter(row => row.classList.contains('team-row'));
-    teamAssignments = { Blue: [], Red: [] };
-
-    rows.forEach((row, index) => {
-        const champion = row.dataset.champion;
-        const team = index < 5 ? 'Blue' : 'Red';
-        row.className = `team-row ${team}`;
-        row.lastElementChild.textContent = team;
-        teamAssignments[team].push(champion);
     });
 
-    // console.log("Updated Teams:", teamAssignments);
+    new Sortable(redTeamBody, {
+        group: 'shared',
+        animation: 50,
+        onStart: function (e) {
+            document.body.classList.add('dragging');
+            e.item.addEventListener('dragstart', (event) => {
+            event.dataTransfer.setDragImage(new Image(), 0, 0)
+            })
+        },
+        onSort: updateAfterSort,
+        onEnd: function (e) {
+            document.body.classList.remove('dragging');
+        }
+        });
+    }
+
+// Update champion order and team assignments after sorting
+function updateAfterSort() {
+    const blueRows = document.querySelectorAll("#Blue tr.team-row");
+    const redRows = document.querySelectorAll("#Red tr.team-row");
+
+    // Update championOrder array
+    championOrder = [...blueRows, ...redRows].map(row => row.dataset.champion);
+    // console.log("championOrder: ", championOrder);
+
+    teamAssignments = { Blue: [], Red: [] };
+
+    // Reassign teams based off new order
+    championOrder.forEach((champion, index) => {
+        const team = index < 5 ? 'Blue' : 'Red';
+        teamAssignments[team].push(champion);
+        const row = document.querySelector(`tr[data-champion="${champion}"]`);
+        // Update row class to match new team
+        if (row) {
+            row.className = `team-row ${team}`;
+        }
+    });
+
+    // Update the champion order based on the new sorting
+    console.log("Updated Champion Order: ", championOrder);
+    console.log("Team Assignments:", teamAssignments);
 }

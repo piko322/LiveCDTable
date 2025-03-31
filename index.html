@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LoL Cooldown Table</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Cooldown Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <script src="script.js"></script>
 </head>
+
 <body>
   <div class="container">
     <h1>League of Legends Cooldown Table</h1>
@@ -14,10 +17,9 @@
 
     <div class="search-container">
         <input type="text" id="searchBar" placeholder="Search for a champion..." autocomplete="off">
-        <ul id="suggestionsList" class="suggestions"></ul>
+        <ul id="suggestionsList" class="suggestions" ></ul>
     </div>
-    <br>
-    <br>
+    <br>    <br>
 
     <table id="cooldownTable">
       <thead>
@@ -29,292 +31,9 @@
           <th>R</th>
         </tr>
       </thead>
-      <tbody id="sortableBlue"></tbody>
-      <tbody id="sortableRed"></tbody>
+      <tbody id="Blue"></tbody>
+      <tbody id="Red"></tbody>
     </table>
   </div>
 
-  <script>
-    let activeChampions = [];
-    let teamAssignments = {
-      Blue: [],
-      Red: []
-    };
-
-     document.addEventListener('DOMContentLoaded', function () {
-        const searchBar = document.getElementById('searchBar');
-        const suggestionsList = document.getElementById('suggestionsList');
-        let champions = [];
-        
-        // Fetch champion names from the JSON file
-        fetch('data/champion_names.json')
-            .then(response => response.json())
-            .then(data => {
-                champions = data;
-            })
-            .catch(error => console.error('Error loading champion names:', error));
-
-            function showSuggestions(input) {
-                suggestionsList.innerHTML = '';
-
-                if (input.trim().length === 0) {
-                    return; // Prevent empty input from showing results
-                }
-
-                const regex = new RegExp('^' + input, 'i'); // Match only names that start with input
-                const suggestions = champions
-                    .filter(champion => regex.test(champion) && !activeChampions.includes(champion))
-                    .slice(0, 10);
-
-                suggestions.forEach(suggestion => {
-                    const li = document.createElement('li');
-                    li.textContent = suggestion;
-                    li.addEventListener('click', () => {
-                        searchBar.value = '';  // Clear the search bar
-                        suggestionsList.innerHTML = ''; // Hide suggestions
-                        if (!activeChampions.includes(suggestion)) {
-                            activeChampions.push(suggestion); // Add to activeChampions
-                            console.log("Active champions:", activeChampions);
-                            loadCooldowns(); // Update table display
-                        }
-                    });
-                    suggestionsList.appendChild(li);
-                });
-
-                // If there's a suggestion and the user presses Enter, automatically add the first suggestion
-                if (suggestions.length > 0 && input.trim() !== '') {
-                    // Add first suggestion to activeChampions when Enter is pressed
-                    searchBar.addEventListener('keydown', function (e) {
-                        if (e.key === 'Enter') {
-                            const firstSuggestion = suggestions[0];
-                            searchBar.value = '';  // Clear the search bar
-                            suggestionsList.innerHTML = ''; // Hide suggestions
-                            if (!activeChampions.includes(firstSuggestion)) {
-                                activeChampions.push(firstSuggestion); // Add first suggestion to activeChampions
-                                console.log("Active champions:", activeChampions);
-                                loadCooldowns(); // Update table display
-                            }
-                        }
-                    });
-                }
-            }
-
-            // Event listener for input changes
-            searchBar.addEventListener('input', function () {
-                showSuggestions(this.value);
-            });
-
-            // Hide suggestions when clicking outside
-            document.addEventListener('click', (e) => {
-                if (!searchBar.contains(e.target) && !suggestionsList.contains(e.target)) {
-                    suggestionsList.innerHTML = '';
-                }
-            });
-    });
-
-    // Compare version strings (e.g. "1.2" vs "1.5")
-    function compareVersions(v1, v2) {
-      const parts1 = v1.split('.').map(Number);
-      const parts2 = v2.split('.').map(Number);
-      for (let i = 0; i < Math.max(parts1.length, parts2.length); i++) {
-        const num1 = parts1[i] || 0;
-        const num2 = parts2[i] || 0;
-        if (num1 > num2) return 1;
-        if (num1 < num2) return -1;
-      }
-      return 0;
-    }
-
-    // Load champion cooldown data from JSON
-    async function loadCooldowns() {
-    try {
-        const manifest = await fetch('data/manifest.json');
-        if (!manifest.ok) {
-            throw new Error("Failed to fetch manifest data");
-        }
-        const manifestContent = await manifest.json();
-        const currentFile = manifestContent.currentFile;
-        const response = await fetch("data/" + currentFile);
-        if (!response.ok) {
-        throw new Error("Failed to fetch champion cooldown data");
-        }
-        championCooldowns = await response.json();
-        // Also, get champion names for suggestions from the keys of the JSON.
-        champions = Object.keys(championCooldowns);
-        // Initial render (if activeChampions already has values)
-        if (activeChampions.length > 0) {
-            renderTable();
-        } else {
-            document.getElementById('statusMessage').textContent = "No active champions selected.";
-        }
-    } catch (error) {
-        console.error('Error loading champion cooldowns:', error);
-        document.getElementById('statusMessage').textContent =
-        "Error fetching champion cooldown data.";
-    }
-    }
-
-    // Render table based on activeChampions array
-    function renderTable() {
-    const table = document.getElementById('cooldownTable');
-    const tableBody = document.getElementById('championRows');
-    const statusMessage = document.getElementById('statusMessage');
-    
-    tableBody.innerHTML = '';
-
-    if (activeChampions.length === 0) {
-        statusMessage.textContent = "No active champions selected.";
-        table.style.display = 'none';
-        return;
-    }
-
-    statusMessage.style.display = 'none';
-    table.style.display = 'table';
-
-    activeChampions.forEach(champ => {
-        if (championCooldowns[champ]) {
-        const data = championCooldowns[champ];
-        const iconUrl = data.champIcon || 'default-icon.png';
-        const row = document.createElement('tr');
-        row.classList.add(currentTeam);
-        row.innerHTML = `
-            <td><img src="${iconUrl}" alt="${champ} Icon" class="champion-icon"></td>
-            <td>${champ}</td>
-            <td>${data.Q || 'N/A'}</td>
-            <td>${data.W || 'N/A'}</td>
-            <td>${data.E || 'N/A'}</td>
-            <td>${data.R || 'N/A'}</td>
-        `;
-        tableBody.appendChild(row);
-        } else {
-        console.warn(`Champion "${champ}" not found in JSON data.`);
-        }
-    });
-
-    // Make rows draggable (optional)
-    new Sortable(tableBody, {
-        animation: 150,
-        ghostClass: 'sortable-ghost'
-    });
-    }
-
-    window.onload = loadCooldowns;
-  </script>
 </body>
-</html>
-
-<style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #1e1e1e;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    table {
-      width: 80%;
-      margin: auto;
-      border-collapse: collapse;
-      box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-      display: none;
-      table-layout: auto;
-    }
-    th, td {
-      padding: 10px;
-      text-align: center;
-      border: 1px solid white;
-      white-space: nowrap;
-      min-width: 100px;
-    }
-    th {
-      background-color: #444;
-    }
-    .Blue {
-      background-color: #2896BC;
-      color: white;
-    }
-    .Red {
-      background-color: #EB4130;
-      color: white;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #333;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
-    }
-    #statusMessage {
-      font-size: 18px;
-      font-weight: bold;
-      color: #ffcc00;
-      margin-top: 20px;
-    }
-    #suggestionsList {
-      position: absolute;
-      width: 300px;
-      max-height: 150px;
-      overflow-y: auto;
-      background-color: #333;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      z-index: 1000;
-    }
-    #suggestionsList li {
-      padding: 10px;
-      cursor: pointer;
-    }
-    tbody tr {
-      cursor: grab;
-    }
-    tbody tr:active {
-      cursor: grabbing;
-    }
-    /* Champion icon styling */
-    .champion-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-  
-    .search-container {
-    position: relative;
-    margin: 20px auto;
-    width: 300px;
-
-    }
-    
-    #searchBar {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-    .suggestions {
-        position: absolute;
-        width: 100%;
-        border: 1px solid #ccc;
-        border-top: none;
-        border-radius: 0 0 4px 4px;
-        background-color: #444;
-        list-style-type: none;
-        padding-left: 0;
-        max-height: 150px;
-        overflow-y: auto;
-        z-index: 1000;
-    }
-    .suggestions li {
-        padding: 10px;
-        cursor: pointer;
-    }
-    .suggestions li:hover {
-        background-color: #444;
-    }
-  
-  </style>
