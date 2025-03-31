@@ -64,7 +64,7 @@
     },
     "Aphelios": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.4.1/img/champion/Aphelios.png",
-        "Q": "No CD",
+        "Q": "Dude seriously fuck this champion, his dead sister makes his kit JSON file a fucking nightmare to parse",
         "W": "0.8 all ranks",
         "E": "No CD",
         "R": "120 / 110 / 100"
