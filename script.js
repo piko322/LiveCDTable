@@ -133,7 +133,16 @@ function updateTable() {
                 <td>${data.W || 'N/A'}</td>
                 <td>${data.E || 'N/A'}</td>
                 <td>${data.R || 'N/A'}</td>
+                <td class="remove-col">X</td>
             `;
+
+            row.querySelector('.remove-col').addEventListener('click', () => {
+                const championName = row.dataset.champion;
+                activeChampions = activeChampions.filter(champ => champ !== championName);
+                championOrder = championOrder.filter(champ => champ !== championName);
+                row.remove();
+                updateTable();
+            });
 
             // Append to the corresponding tbody
             if (team === 'Blue') {

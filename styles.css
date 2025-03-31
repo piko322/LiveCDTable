@@ -24,6 +24,14 @@ th, td {
   white-space: nowrap;
   min-width: 100px;
 }
+th:last-child, td:last-child {
+  border: none;
+  background: none;
+  background-color: #333;
+  text-align: center;
+  width: 5px;
+}
+
 th {
   background-color: #444;
 }
@@ -140,5 +148,23 @@ width: 300px;
   vertical-align: middle;
 }
 .team-row {
-  transition: transform 0.05s ease, box-shadow 0.1s ease background-color 0.05s ease;  /* Smooth transition for drag effects */
+  transition: transform 0.25s ease-in-out, box-shadow 0.1s ease background-color 0.05s ease;  /* Smooth transition for drag effects */
+}
+.team-row.removing {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.remove-col {
+  background: none;
+  border: none;
+  background-color: red;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 1; /* Hide by default */
+  color: #444;
+}
+/* Change color on hover */
+.remove-col:hover {
+  color: white;
+  opacity:0.8;
 }
