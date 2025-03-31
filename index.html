@@ -5,7 +5,205 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LoL Cooldown Table</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
-  <style>
+
+</head>
+<body>
+  <div class="container">
+    <h1>League of Legends Cooldown Table</h1>
+    <p id="statusMessage">Loading...</p>
+
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search for a champion..." autocomplete="off">
+        <ul id="suggestionsList" class="suggestions"></ul>
+    </div>
+    <br>
+    <br>
+
+    <table id="cooldownTable">
+      <thead>
+        <tr>
+          <th colspan="2">Champion</th>
+          <th>Q</th>
+          <th>W</th>
+          <th>E</th>
+          <th>R</th>
+        </tr>
+      </thead>
+      <tbody id="sortableBlue"></tbody>
+      <tbody id="sortableRed"></tbody>
+    </table>
+  </div>
+
+  <script>
+    let activeChampions = [];
+    let teamAssignments = {
+      Blue: [],
+      Red: []
+    };
+
+     document.addEventListener('DOMContentLoaded', function () {
+        const searchBar = document.getElementById('searchBar');
+        const suggestionsList = document.getElementById('suggestionsList');
+        let champions = [];
+        
+        // Fetch champion names from the JSON file
+        fetch('data/champion_names.json')
+            .then(response => response.json())
+            .then(data => {
+                champions = data;
+            })
+            .catch(error => console.error('Error loading champion names:', error));
+
+            function showSuggestions(input) {
+                suggestionsList.innerHTML = '';
+
+                if (input.trim().length === 0) {
+                    return; // Prevent empty input from showing results
+                }
+
+                const regex = new RegExp('^' + input, 'i'); // Match only names that start with input
+                const suggestions = champions
+                    .filter(champion => regex.test(champion) && !activeChampions.includes(champion))
+                    .slice(0, 10);
+
+                suggestions.forEach(suggestion => {
+                    const li = document.createElement('li');
+                    li.textContent = suggestion;
+                    li.addEventListener('click', () => {
+                        searchBar.value = '';  // Clear the search bar
+                        suggestionsList.innerHTML = ''; // Hide suggestions
+                        if (!activeChampions.includes(suggestion)) {
+                            activeChampions.push(suggestion); // Add to activeChampions
+                            console.log("Active champions:", activeChampions);
+                            loadCooldowns(); // Update table display
+                        }
+                    });
+                    suggestionsList.appendChild(li);
+                });
+
+                // If there's a suggestion and the user presses Enter, automatically add the first suggestion
+                if (suggestions.length > 0 && input.trim() !== '') {
+                    // Add first suggestion to activeChampions when Enter is pressed
+                    searchBar.addEventListener('keydown', function (e) {
+                        if (e.key === 'Enter') {
+                            const firstSuggestion = suggestions[0];
+                            searchBar.value = '';  // Clear the search bar
+                            suggestionsList.innerHTML = ''; // Hide suggestions
+                            if (!activeChampions.includes(firstSuggestion)) {
+                                activeChampions.push(firstSuggestion); // Add first suggestion to activeChampions
+                                console.log("Active champions:", activeChampions);
+                                loadCooldowns(); // Update table display
+                            }
+                        }
+                    });
+                }
+            }
+
+            // Event listener for input changes
+            searchBar.addEventListener('input', function () {
+                showSuggestions(this.value);
+            });
+
+            // Hide suggestions when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!searchBar.contains(e.target) && !suggestionsList.contains(e.target)) {
+                    suggestionsList.innerHTML = '';
+                }
+            });
+    });
+
+    // Compare version strings (e.g. "1.2" vs "1.5")
+    function compareVersions(v1, v2) {
+      const parts1 = v1.split('.').map(Number);
+      const parts2 = v2.split('.').map(Number);
+      for (let i = 0; i < Math.max(parts1.length, parts2.length); i++) {
+        const num1 = parts1[i] || 0;
+        const num2 = parts2[i] || 0;
+        if (num1 > num2) return 1;
+        if (num1 < num2) return -1;
+      }
+      return 0;
+    }
+
+    // Load champion cooldown data from JSON
+    async function loadCooldowns() {
+    try {
+        const manifest = await fetch('data/manifest.json');
+        if (!manifest.ok) {
+            throw new Error("Failed to fetch manifest data");
+        }
+        const manifestContent = await manifest.json();
+        const currentFile = manifestContent.currentFile;
+        const response = await fetch("data/" + currentFile);
+        if (!response.ok) {
+        throw new Error("Failed to fetch champion cooldown data");
+        }
+        championCooldowns = await response.json();
+        // Also, get champion names for suggestions from the keys of the JSON.
+        champions = Object.keys(championCooldowns);
+        // Initial render (if activeChampions already has values)
+        if (activeChampions.length > 0) {
+            renderTable();
+        } else {
+            document.getElementById('statusMessage').textContent = "No active champions selected.";
+        }
+    } catch (error) {
+        console.error('Error loading champion cooldowns:', error);
+        document.getElementById('statusMessage').textContent =
+        "Error fetching champion cooldown data.";
+    }
+    }
+
+    // Render table based on activeChampions array
+    function renderTable() {
+    const table = document.getElementById('cooldownTable');
+    const tableBody = document.getElementById('championRows');
+    const statusMessage = document.getElementById('statusMessage');
+    
+    tableBody.innerHTML = '';
+
+    if (activeChampions.length === 0) {
+        statusMessage.textContent = "No active champions selected.";
+        table.style.display = 'none';
+        return;
+    }
+
+    statusMessage.style.display = 'none';
+    table.style.display = 'table';
+
+    activeChampions.forEach(champ => {
+        if (championCooldowns[champ]) {
+        const data = championCooldowns[champ];
+        const iconUrl = data.champIcon || 'default-icon.png';
+        const row = document.createElement('tr');
+        row.classList.add(currentTeam);
+        row.innerHTML = `
+            <td><img src="${iconUrl}" alt="${champ} Icon" class="champion-icon"></td>
+            <td>${champ}</td>
+            <td>${data.Q || 'N/A'}</td>
+            <td>${data.W || 'N/A'}</td>
+            <td>${data.E || 'N/A'}</td>
+            <td>${data.R || 'N/A'}</td>
+        `;
+        tableBody.appendChild(row);
+        } else {
+        console.warn(`Champion "${champ}" not found in JSON data.`);
+        }
+    });
+
+    // Make rows draggable (optional)
+    new Sortable(tableBody, {
+        animation: 150,
+        ghostClass: 'sortable-ghost'
+    });
+    }
+
+    window.onload = loadCooldowns;
+  </script>
+</body>
+</html>
+
+<style>
     body {
       font-family: Arial, sans-serif;
       background-color: #1e1e1e;
@@ -56,6 +254,20 @@
       color: #ffcc00;
       margin-top: 20px;
     }
+    #suggestionsList {
+      position: absolute;
+      width: 300px;
+      max-height: 150px;
+      overflow-y: auto;
+      background-color: #333;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      z-index: 1000;
+    }
+    #suggestionsList li {
+      padding: 10px;
+      cursor: pointer;
+    }
     tbody tr {
       cursor: grab;
     }
@@ -69,11 +281,14 @@
       border-radius: 50%;
       object-fit: cover;
     }
-
+  
     .search-container {
     position: relative;
+    margin: 20px auto;
     width: 300px;
+
     }
+    
     #searchBar {
         width: 100%;
         padding: 10px;
@@ -87,7 +302,7 @@
         border: 1px solid #ccc;
         border-top: none;
         border-radius: 0 0 4px 4px;
-        background-color: #fff;
+        background-color: #444;
         list-style-type: none;
         padding-left: 0;
         max-height: 150px;
@@ -99,198 +314,7 @@
         cursor: pointer;
     }
     .suggestions li:hover {
-        background-color: #f0f0f0;
+        background-color: #444;
     }
-
+  
   </style>
-</head>
-<body>
-  <div class="container">
-    <h1>League of Legends Cooldown Table</h1>
-    <p id="statusMessage">Loading...</p>
-
-    <div class="search-container">
-        <input type="text" id="searchBar" placeholder="Search for a champion..." autocomplete="off">
-        <ul id="suggestionsList" class="suggestions"></ul>
-    </div>
-
-    <table id="cooldownTable">
-      <thead>
-        <tr>
-          <th colspan="2">Champion</th>
-          <th>Q</th>
-          <th>W</th>
-          <th>E</th>
-          <th>R</th>
-        </tr>
-      </thead>
-      <tbody id="sortableBlue"></tbody>
-      <tbody id="sortableRed"></tbody>
-    </table>
-  </div>
-
-  <script>
-     document.addEventListener('DOMContentLoaded', function () {
-        const searchBar = document.getElementById('searchBar');
-        const suggestionsList = document.getElementById('suggestionsList');
-        let champions = [];
-
-        // Fetch champion names from the JSON file
-        fetch('data/champion_names.json')
-            .then(response => response.json())
-            .then(data => {
-                champions = data;
-            })
-            .catch(error => console.error('Error loading champion names:', error));
-
-        // Function to filter and display suggestions
-        function showSuggestions(input) {
-            suggestionsList.innerHTML = '';
-            if (input.length === 0) {
-                return;
-            }
-            const regex = new RegExp(input, 'i');
-            const suggestions = champions.filter(champion => regex.test(champion)).slice(0, 10);
-            suggestions.forEach(suggestion => {
-                const li = document.createElement('li');
-                li.textContent = suggestion;
-                li.addEventListener('click', () => {
-                    searchBar.value = suggestion;
-                    suggestionsList.innerHTML = '';
-                });
-                suggestionsList.appendChild(li);
-            });
-        }
-
-        // Event listener for input changes
-        searchBar.addEventListener('input', () => {
-            showSuggestions(searchBar.value);
-        });
-
-        // Hide suggestions when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!searchBar.contains(e.target) && !suggestionsList.contains(e.target)) {
-                suggestionsList.innerHTML = '';
-            }
-        });
-    });
-
-    // Compare version strings (e.g. "1.2" vs "1.5")
-    function compareVersions(v1, v2) {
-      const parts1 = v1.split('.').map(Number);
-      const parts2 = v2.split('.').map(Number);
-      for (let i = 0; i < Math.max(parts1.length, parts2.length); i++) {
-        const num1 = parts1[i] || 0;
-        const num2 = parts2[i] || 0;
-        if (num1 > num2) return 1;
-        if (num1 < num2) return -1;
-      }
-      return 0;
-    }
-
-    // Parse CSV text into championCooldowns object.
-    function parseCSV(csvText) {
-      const lines = csvText.trim().split('\n');
-      const headers = lines[0].split(',').map(h => h.trim());
-      const championCooldowns = {};
-      
-      for (let i = 1; i < lines.length; i++) {
-        const values = lines[i].split(',').map(val => val.trim());
-        const row = {};
-        headers.forEach((header, index) => {
-          row[header] = values[index] || "";
-        });
-        const champ = row['champion'];
-        championCooldowns[champ] = {
-          Q: row['Q'],
-          W: row['W'],
-          E: row['E'],
-          R: row['R'],
-          champIcon: row['champIcon']
-        };
-      }
-      return championCooldowns;
-    }
-
-    async function loadCooldowns() {
-      try {
-        // Fetch manifest file to get the current CSV file path
-        const manifestResponse = await fetch('data/manifest.json');
-        if (!manifestResponse.ok)
-          throw new Error("Failed to fetch manifest file");
-        const manifest = await manifestResponse.json();
-        const currentFile = manifest.currentFile;
-
-        console.log("Loading CSV file:", currentFile);
-
-        // Fetch the CSV file with champion cooldowns
-        const csvResponse = await fetch(currentFile);
-        if (!csvResponse.ok)
-          throw new Error("Failed to fetch CSV file: " + currentFile);
-        const csvText = await csvResponse.text();
-
-        // Parse CSV content.
-        const championCooldowns = parseCSV(csvText);
-
-        // Render the table.
-        const statusMessage = document.getElementById('statusMessage');
-        const table = document.getElementById('cooldownTable');
-        const blueBody = document.getElementById('sortableBlue');
-        const redBody = document.getElementById('sortableRed');
-
-        blueBody.innerHTML = '';
-        redBody.innerHTML = '';
-
-        if (Object.keys(championCooldowns).length === 0) {
-          statusMessage.textContent = "No champion cooldown data found.";
-          table.style.display = 'none';
-          return;
-        }
-
-        statusMessage.style.display = 'none';
-        table.style.display = 'table';
-
-        Object.keys(championCooldowns).forEach(champ => {
-          const iconUrl = championCooldowns[champ]['champIcon'] || 'default-icon.png';
-          const row = document.createElement('tr');
-          row.classList.add(team);
-
-          row.innerHTML = `
-            <td><img src="${iconUrl}" alt="${champ} Icon" class="champion-icon"></td>
-            <td>${champ}</td>
-            <td>${championCooldowns[champ]['Q'] || 'N/A'}</td>
-            <td>${championCooldowns[champ]['W'] || 'N/A'}</td>
-            <td>${championCooldowns[champ]['E'] || 'N/A'}</td>
-            <td>${championCooldowns[champ]['R'] || 'N/A'}</td>
-          `;
-
-          if (team === "Blue") {
-            blueBody.appendChild(row);
-          } else {
-            redBody.appendChild(row);
-          }
-        });
-
-        // Make Blue team rows draggable within their section.
-        new Sortable(blueBody, {
-          animation: 150,
-          ghostClass: 'sortable-ghost'
-        });
-
-        // Make Red team rows draggable within their section.
-        new Sortable(redBody, {
-          animation: 150,
-          ghostClass: 'sortable-ghost'
-        });
-
-      } catch (error) {
-        console.error('Error loading cooldowns:', error);
-        document.getElementById('statusMessage').textContent =
-          "Error fetching data. Ensure the manifest and CSV files are accessible.";
-      }
-    }
-
-    window.onload = loadCooldowns;
-  </script>
-</body>
-</html>

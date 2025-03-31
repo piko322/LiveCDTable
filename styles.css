@@ -1,0 +1,138 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+table {
+  width: 90%;
+  margin: auto;
+  display: none;
+  table-layout: auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid white;
+  white-space: nowrap;
+  min-width: 100px;
+}
+th {
+  background-color: #444;
+}
+.Blue {
+  background-color: #2896BC;
+  color: white;
+}
+.Red {
+  background-color: #EB4130;
+  color: white;
+}
+.container {
+  margin: auto;
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+#statusMessage {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-top: 20px;
+}
+#suggestionsList {
+  position: absolute;
+  width: 300px;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1000;
+}
+#suggestionsList li {
+  padding: 10px;
+  cursor: pointer;
+}
+tbody tr {
+  cursor: grab;
+}
+tbody tr:active {
+  cursor: grabbing;
+}
+/* Champion icon styling */
+.champion-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.search-container {
+position: relative;
+margin: 20px auto;
+width: 300px;
+
+}
+#searchBar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position:relative;
+    text-align:center;
+
+}
+#suggestionsList {
+    position: absolute;
+    width: 100%;
+    border: 0px;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background-color: #444;
+    list-style-type: none;
+    padding-left: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    
+    scrollbar-width: none; /* Firefox */
+}
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #222;
+    text-align: left;
+    vertical-align: middle;
+}
+.suggestions li:hover {
+    background-color: #333;
+}
+.suggestions img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.team-row {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-row.dragging {
+  opacity: 0.5;  /* Make the dragged row semi-transparent */
+  transform: scale(1.05);  /* Slightly enlarge the row */
+}
+
+.team-row.dragging-over {
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Add shadow to emphasize the drop zone */
+}
