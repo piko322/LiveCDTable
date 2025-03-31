@@ -5,6 +5,7 @@ body {
   color: white;
   text-align: center;
   padding: 20px;
+  overflow: hidden;
 }
 h1 {
   margin-bottom: 20px;
@@ -93,12 +94,11 @@ tbody tr:active {
 }
 /* Champion icon styling */
 .champion-icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   object-fit: cover;
 }
-
 .search-container {
 position: relative;
 margin: 20px auto;
@@ -124,7 +124,7 @@ width: 300px;
     background-color: #444;
     list-style-type: none;
     padding-left: 0;
-    max-height: 150px;
+    max-height: 200px;
     overflow-y: auto;
     z-index: 1000;
     
@@ -161,10 +161,17 @@ width: 300px;
   font-size: 16px;
   cursor: pointer;
   opacity: 1; /* Hide by default */
-  color: #444;
+  color: #777;
 }
 /* Change color on hover */
 .remove-col:hover {
   color: white;
   opacity:0.8;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }

@@ -12,14 +12,15 @@
 
 <body>
   <div class="container">
-    <h1>League of Legends Cooldown Table</h1>
-    <p id="statusMessage">Loading...</p>
-
+    <header>
+      <h1>League of Legends Cooldown Table</h1>
+      <p class="version"></p>
+      <p id="statusMessage">Loading...</p>
+    </header>
     <div class="search-container">
         <input type="text" id="searchBar" placeholder="Search for a champion..." autocomplete="off">
         <ul id="suggestionsList" class="suggestions" ></ul>
     </div>
-    <br>    <br>
 
     <table id="cooldownTable">
       <thead>
@@ -35,6 +36,10 @@
       <tbody id="Blue"></tbody>
       <tbody id="Red"></tbody>
     </table>
+    <p>
+      You can drag and drop champions to change their order. The cooldowns are displayed in seconds.
+
+    </p>
   </div>
 
 </body>

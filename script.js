@@ -6,13 +6,16 @@ let cooldowns = {};
 let championNames = [];
 let initialized = false;
 let championSuggestions = [];
-
+let currentVersion;
 // Fetch data from manifest and cooldown file
 async function initialize() {
     const response = await fetch('manifest.json');
     const data = await response.json();
     cooldownFile = data.currentFile;
-
+    currentVersion = data.currentVersion;
+    // Look for h1 element and add version
+    const versionElement = document.querySelector('.version');
+    versionElement.textContent += ` (${currentVersion})`;
     await fetch('data/' + cooldownFile)
         .then(response => response.json())
         .then(data => {
@@ -73,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             championSuggestions.push(suggestion);
             suggestionsList.appendChild(li);
+            toggleSearchBar();
         });
     }
 
@@ -91,16 +95,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             clearSearch();
+            toggleSearchBar();
         }
     });
 
     document.addEventListener('click', (e) => {
         if (!searchBar.contains(e.target) && !suggestionsList.contains(e.target)) {
             clearSearch();
+            toggleSearchBar();
         }
     });
 });
 
+function toggleSearchBar() {
+    const searchBar = document.getElementById('searchBar');
+    if (activeChampions.length < 10) {
+        searchBar.style.display = 'block';
+        searchBar.focus();
+    } else {
+        searchBar.style.display = 'none';
+    }
+}
 // Update the table with champion data
 function updateTable() {
     const table = document.getElementById('cooldownTable');
