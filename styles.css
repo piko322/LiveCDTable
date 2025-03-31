@@ -96,8 +96,6 @@ tbody tr:active {
 .champion-icon {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
 }
 .search-container {
 position: relative;
