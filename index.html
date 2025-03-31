@@ -188,13 +188,11 @@
       return 0;
     }
 
-    // Parse CSV text into championCooldowns and teamChampDict objects.
-    // Expected CSV columns: champion, team, Q, W, E, R, champIcon
+    // Parse CSV text into championCooldowns object.
     function parseCSV(csvText) {
       const lines = csvText.trim().split('\n');
       const headers = lines[0].split(',').map(h => h.trim());
       const championCooldowns = {};
-      const teamChampDict = {};
       
       for (let i = 1; i < lines.length; i++) {
         const values = lines[i].split(',').map(val => val.trim());
@@ -210,14 +208,13 @@
           R: row['R'],
           champIcon: row['champIcon']
         };
-        teamChampDict[champ] = row['team'];
       }
-      return { championCooldowns, teamChampDict };
+      return championCooldowns;
     }
 
     async function loadCooldowns() {
       try {
-        // Fetch the manifest listing CSV files.
+        // Fetch manifest file to get the current CSV file path
         const manifestResponse = await fetch('data/manifest.json');
         if (!manifestResponse.ok)
           throw new Error("Failed to fetch manifest file");
@@ -226,14 +223,14 @@
 
         console.log("Loading CSV file:", currentFile);
 
-        // Fetch the CSV file with the highest version.
+        // Fetch the CSV file with champion cooldowns
         const csvResponse = await fetch(currentFile);
         if (!csvResponse.ok)
           throw new Error("Failed to fetch CSV file: " + currentFile);
         const csvText = await csvResponse.text();
 
         // Parse CSV content.
-        const { championCooldowns, teamChampDict } = parseCSV(csvText);
+        const championCooldowns = parseCSV(csvText);
 
         // Render the table.
         const statusMessage = document.getElementById('statusMessage');
@@ -256,7 +253,6 @@
         Object.keys(championCooldowns).forEach(champ => {
           const iconUrl = championCooldowns[champ]['champIcon'] || 'default-icon.png';
           const row = document.createElement('tr');
-          const team = teamChampDict[champ]; // Expected to be "Blue" or "Red"
           row.classList.add(team);
 
           row.innerHTML = `
