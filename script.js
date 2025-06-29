@@ -7,6 +7,8 @@ let championNames = [];
 let initialized = false;
 let championSuggestions = [];
 let currentVersion;
+let selectedRow = null;
+
 // Fetch data from manifest and cooldown file
 async function initialize() {
     const response = await fetch('manifest.json');
@@ -143,13 +145,43 @@ function updateTable() {
 
             row.innerHTML = `
                 <td><img class="champion-icon" src="${data.champIcon}" alt="${champion}" width="50" height="50"></td>
-                <td>${champion}</td>
-                <td>${data.Q || 'N/A'}</td>
-                <td>${data.W || 'N/A'}</td>
-                <td>${data.E || 'N/A'}</td>
-                <td>${data.R || 'N/A'}</td>
+                <td data-label="Champion">${champion}</td>
+                <td data-label="Q">${data.Q || 'N/A'}</td>
+                <td data-label="W">${data.W || 'N/A'}</td>
+                <td data-label="E">${data.E || 'N/A'}</td>
+                <td data-label="R">${data.R || 'N/A'}</td>
                 <td class="remove-col">X</td>
             `;
+
+            row.addEventListener('click', (e) => {
+                if (e.target.classList.contains('remove-col')) return; // Ignore clicks on the remove button
+                if (selectedRow && selectedRow !== row) {
+                    const champ1 = selectedRow.dataset.champion;
+                    const champ2 = row.dataset.champion;
+                    const idx1 = championOrder.indexOf(champ1);
+                    const idx2 = championOrder.indexOf(champ2);
+                    if (idx1 !== -1 && idx2 !== -1) {
+                        // Swap the champions in the order array
+                        championOrder[idx1] = champ2;
+                        championOrder[idx2] = champ1;
+                    } 
+
+                    selectedRow.classList.remove('selected-row');
+                    selectedRow = null;
+                    console.log(selectedRow);
+                    updateTable();
+                } else {
+                    if (selectedRow) {
+                        // If clicked on the same row, deselect it
+                        selectedRow.classList.remove('selected-row');
+                        selectedRow = null;
+                    } else {
+                        // If no row is selected, select this one
+                        selectedRow = row;
+                        selectedRow.classList.add('selected-row');
+                    }
+                } 
+            });
 
             row.querySelector('.remove-col').addEventListener('click', () => {
                 const championName = row.dataset.champion;
