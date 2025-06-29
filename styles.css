@@ -22,8 +22,8 @@ th, td {
   padding: 0.5rem;
   text-align: center;
   border: 1px solid white;
-  white-space: nowrap;
-  /* min-width: 100px; */
+  /* white-space: nowrap; */
+  min-width: 1rem;
 }
 th:last-child, td:last-child {
   border: none;
@@ -172,7 +172,6 @@ header {
   justify-content: center;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  padding-right: 10px;
 }
 
 .selected-row {
