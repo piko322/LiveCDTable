@@ -28,6 +28,13 @@ async function initialize() {
         .catch(error => console.error('Error fetching cooldown file:', error));
     document.getElementById('statusMessage').textContent = "";
     initialized = true;
+    if (isMobileDevice()) {
+        document.getElementById('info').textContent = "The cooldowns are displayed in seconds.";
+        document.getElementById('info2').textContent = "You can swap two rows by tapping them.";
+    } else {
+        document.getElementById('info').textContent = "You can drag and drop champions to change their order. The cooldowns are displayed in seconds.";
+        document.getElementById('info2').textContent = "You can swap two rows by clicking one after another.";
+    }
 }
 
 initialize().then(() => {
@@ -118,6 +125,15 @@ function toggleSearchBar() {
         searchBar.style.display = 'none';
     }
 }
+
+function clearSelection() {
+    document.querySelectorAll('.selected-row').forEach(row => {
+        row.classList.remove('selected-row');
+    });
+    selectedRow = null;
+    console.log("Clearing selection");
+}
+
 // Update the table with champion data
 function updateTable() {
     const table = document.getElementById('cooldownTable');
@@ -153,8 +169,9 @@ function updateTable() {
                 <td class="remove-col">X</td>
             `;
 
-            row.addEventListener('click', (e) => {
+            row.addEventListener('pointerdown', (e) => {
                 if (e.target.classList.contains('remove-col')) return; // Ignore clicks on the remove button
+                if (document.body.classList.contains('dragging')) return; // Ignore clicks while dragging
                 if (selectedRow && selectedRow !== row) {
                     const champ1 = selectedRow.dataset.champion;
                     const champ2 = row.dataset.champion;
@@ -166,10 +183,18 @@ function updateTable() {
                         championOrder[idx2] = champ1;
                     } 
 
-                    selectedRow.classList.remove('selected-row');
-                    selectedRow = null;
-                    console.log(selectedRow);
-                    updateTable();
+                    // Animation
+                    selectedRow.classList.add('swap-animation');
+                    row.classList.add('swap-animation');
+                    console.log("Swapping rows: ", selectedRow.dataset.champion, " and ", row.dataset.champion);
+                    setTimeout(() => {
+                        selectedRow.classList.remove('swap-animation');
+                        row.classList.remove('swap-animation');
+                        selectedRow = null;
+                        updateTable();
+                    }, 300); // Duration of the animation
+                    // selectedRow.classList.remove('selected-row');
+                    
                 } else {
                     if (selectedRow) {
                         // If clicked on the same row, deselect it
@@ -181,6 +206,7 @@ function updateTable() {
                         selectedRow.classList.add('selected-row');
                     }
                 } 
+                console.log("Selected Row: ", selectedRow ? selectedRow.dataset.champion : "None");
             });
 
             row.querySelector('.remove-col').addEventListener('click', () => {
@@ -204,8 +230,13 @@ function updateTable() {
     initializeSortable();
 }
 
+function isMobileDevice() {
+    return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
 // Initialize or reinitialize Sortable for the Blue and Red team table bodies
 function initializeSortable() {
+    if (isMobileDevice()) {return;}
     const blueTeamBody = document.getElementById('Blue');
     const redTeamBody = document.getElementById('Red');
 
@@ -213,11 +244,15 @@ function initializeSortable() {
     new Sortable(blueTeamBody, {
         group: 'shared',
         animation: 50,
+        ghostClass: 'ghost',
         onStart: function (e) {
+            console.log("Drag started");
+            clearSelection();
             document.body.classList.add('dragging');
             e.item.addEventListener('dragstart', (event) => {
             event.dataTransfer.setDragImage(new Image(), 0, 0)
             })
+
         },
         onSort: updateAfterSort,
         onEnd: function (e) {
@@ -228,8 +263,10 @@ function initializeSortable() {
     new Sortable(redTeamBody, {
         group: 'shared',
         animation: 50,
+        ghostClass: 'ghost',
         onStart: function (e) {
             document.body.classList.add('dragging');
+            clearSelection();
             e.item.addEventListener('dragstart', (event) => {
             event.dataTransfer.setDragImage(new Image(), 0, 0)
             })

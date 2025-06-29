@@ -24,6 +24,7 @@ th, td {
   border: 1px solid white;
   /* white-space: nowrap; */
   min-width: 1rem;
+  max-width: 2rem;
 }
 th:last-child, td:last-child {
   border: none;
@@ -147,11 +148,25 @@ width: 300px;
   vertical-align: middle;
 }
 .team-row {
-  transition: transform 0.25s ease-in-out, box-shadow 0.1s ease background-color 0.05s ease;  /* Smooth transition for drag effects */
+  transition: transform 0.25s ease-in-out, box-shadow 0.1s ease background-color 0.25s ease;  /* Smooth transition for drag effects */
 }
 .team-row.removing {
   transform: translateX(-100%);
   opacity: 0;
+}
+.swap-animation {
+  animation: flashSwap 250ms ease-in-out;
+}
+@keyframes flashSwap {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    background-color: rgb(0, 0, 0);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 .remove-col {
   background: none;
@@ -176,8 +191,12 @@ header {
 
 .selected-row {
   outline: 2px solid #ffa500;
-  background-color: rgba(255, 165, 0, 0.1);
   transition: background-color 0.3s ease;
+}
+
+.ghost {
+  opacity: 0;
+  visibility: hidden;
 }
 
 /* Responsive behavior */
@@ -203,6 +222,8 @@ header {
     padding: 0.5rem;
     border: none;
     border-bottom: 1px solid #eee;
+    min-width: 30px;
+    max-width: 200px;
   }
 
   tbody td::before {
