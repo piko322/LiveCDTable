@@ -74,7 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
         suggestions.forEach(suggestion => {
             const li = document.createElement('li');
             const iconUrl = cooldowns[suggestion].champIcon;
-            li.innerHTML = `<img class="suggestionIcon" src="${iconUrl}" alt="${suggestion}"> ${suggestion}`;
+            li.innerHTML = `<img class="suggestion" src="${iconUrl}" alt="${suggestion}"> ${suggestion}`;
+            li.classList.add('suggestion');
             li.addEventListener('click', () => {
                 clearSearch();
                 if (!activeChampions.includes(suggestion) && activeChampions.length < 10) {
@@ -104,23 +105,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             clearSearch();
+            console.log("Enter")
             toggleSearchBar();
         }
     });
 
     document.addEventListener('click', (e) => {
-        if (!searchBar.contains(e.target) && !suggestionsList.contains(e.target)) {
+        if (!searchBar.contains(e.target) && !suggestionsList.contains(e.target) && !e.target.classList.contains('suggestion')) {
             clearSearch();
+            console.log("Click")
             toggleSearchBar();
+        } else if (e.target.classList.contains('suggestion')) {
+            clearSearch();
+            console.log("Suggestion Click")
+            toggleSearchBar(bypass = true);
         }
     });
 });
 
-function toggleSearchBar() {
+function toggleSearchBar(bypass = false) {
+    console.log(!bypass ? "No Focus" : "Focus");
     const searchBar = document.getElementById('searchBar');
     if (activeChampions.length < 10) {
         searchBar.style.display = 'block';
-        searchBar.focus();
+        if (!isMobileDevice() || bypass) {
+            searchBar.focus();
+        };
     } else {
         searchBar.style.display = 'none';
     }
