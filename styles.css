@@ -223,7 +223,7 @@ header {
     border: none;
     border-bottom: 1px solid #eee;
     min-width: 30px;
-    max-width: 200px;
+    max-width: 300px;
   }
 
   tbody td::before {
