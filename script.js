@@ -170,8 +170,8 @@ function updateTable() {
             row.dataset.champion = champion;
 
             row.innerHTML = `
-                <td><img class="champion-icon" src="${data.champIcon}" alt="${champion}" width="50" height="50"></td>
-                <td data-label="Champion">${champion}</td>
+                <td id="champ"><img class="champion-icon" src="${data.champIcon}" alt="${champion}" width="50" height="50"></td>
+                <td id="champ" >${champion}</td>
                 <td data-label="Q">${data.Q || 'N/A'}</td>
                 <td data-label="W">${data.W || 'N/A'}</td>
                 <td data-label="E">${data.E || 'N/A'}</td>

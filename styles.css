@@ -26,6 +26,10 @@ th, td {
   min-width: 1rem;
   max-width: 2rem;
 }
+td#champ {
+  min-width: 0.1rem;
+  max-width: 0.5rem;
+}
 th:last-child, td:last-child {
   border: none;
   background: none;
