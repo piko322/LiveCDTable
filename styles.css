@@ -23,13 +23,13 @@ th, td {
   text-align: center;
   border: 1px solid white;
   /* white-space: nowrap; */
+  min-width: 0.5rem;
+  max-width: 4rem;
+}
+/* td#champ {
   min-width: 1rem;
   max-width: 2rem;
-}
-td#champ {
-  min-width: 0.1rem;
-  max-width: 0.5rem;
-}
+} */
 th:last-child, td:last-child {
   border: none;
   background: none;
@@ -213,14 +213,14 @@ header {
     display: none;
   }
 
-  tbody tr {
+  tr {
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     padding: 0.5rem;
     background-color: #fff;
   }
 
-  tbody td {
+  td {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
@@ -230,7 +230,7 @@ header {
     max-width: 300px;
   }
 
-  tbody td::before {
+  td::before {
     content: attr(data-label);
     font-weight: bold;
     text-transform: uppercase;
