@@ -11,7 +11,7 @@ let selectedRow = null;
 
 // Fetch data from manifest and cooldown file
 async function initialize() {
-    const response = await fetch('manifest.json');
+    const response = await fetch('data/manifest.json');
     const data = await response.json();
     cooldownFile = data.currentFile;
     currentVersion = data.currentVersion;
