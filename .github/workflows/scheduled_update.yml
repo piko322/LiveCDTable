@@ -1,11 +1,8 @@
-name: Daily Data Update (Python Script)
+name: Update DDragon
 
-# Define the schedule (Runs at 00:00 UTC every day)
 on:
   schedule:
     - cron: '0 0 * * *'
-  
-  # Allow manual execution via the GitHub Actions tab
   workflow_dispatch:
 
 jobs:
@@ -13,35 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout the repository code
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      # 2. Set up the Python environment
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      # 3. Install dependencies (only 'requests' is needed for the new script)
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      # 4. Run the data update script
-      # This executes the Python script we created above
       - name: Run data update script
         run: python update_data.py
 
-      # 5. Commit and push the changes
-      # This action automatically commits the updated data/champion_cooldowns.json 
-      # and data/manifest.json files back to the repository.
       - name: Commit and Push Updated Data Files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Daily DDragon data update"
+          commit_message: "Daily DDragon data update"
           files: 'data/champion_cooldowns.json data/manifest.json'
-          # Ensure the bot uses the correct identity for the commit
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
