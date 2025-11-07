@@ -24,8 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
-          pip install tqdm
+          pip install -r requirements.txt
 
       - name: Run data update script
         run: python update_data.py
