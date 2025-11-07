@@ -1,4 +1,5 @@
 {
-    "currentVersion": "15.6.1",
-    "currentFile": "champion_cooldowns_15.6.1.json"
+  "version": "15.22.1",
+  "date_updated": "2025-11-07 12:11:17 UTC",
+  "champion_data_file": "champion_cooldowns.json"
 }

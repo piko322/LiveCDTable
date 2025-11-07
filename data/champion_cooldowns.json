@@ -1,0 +1,3764 @@
+{
+  "Aatrox": {
+    "The Darkin Blade": {
+      "cooldowns": "14/12/10/8/6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Infernal Chains": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Umbral Dash": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "World Ender": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Ahri": {
+    "Orb of Deception": {
+      "cooldowns": "7",
+      "costs": "55/65/75/85/95",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Fox-Fire": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Charm": {
+      "cooldowns": "12",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spirit Rush": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Akali": {
+    "Five Point Strike": {
+      "cooldowns": "1.5",
+      "costs": "110/100/90/80/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Twilight Shroud": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "0",
+      "resource": "Energy"
+    },
+    "Shuriken Flip": {
+      "cooldowns": "16/14.5/13/11.5/10",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Perfect Execution": {
+      "cooldowns": "120/90/60",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Akshan": {
+    "Avengerang": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Going Rogue": {
+      "cooldowns": "18/14/10/6/2",
+      "costs": "40/30/20/10/0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Heroic Swing": {
+      "cooldowns": "18/16.5/15/13.5/12",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Comeuppance": {
+      "cooldowns": "100/85/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Alistar": {
+    "Pulverize": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Headbutt": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Trample": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Unbreakable Will": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Ambessa": {
+    "Cunning Sweep / Sundering Slam": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Repudiation": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lacerate": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Public Execution": {
+      "cooldowns": "130/115/100",
+      "costs": "0",
+      "resource": "Nocost"
+    }
+  },
+  "Amumu": {
+    "Bandage Toss": {
+      "cooldowns": "3",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Despair": {
+      "cooldowns": "1",
+      "costs": "8",
+      "resource": "{{abilityresourcename}}perSecond"
+    },
+    "Tantrum": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "35",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Curse of the Sad Mummy": {
+      "cooldowns": "150/125/100",
+      "costs": "100/150/200",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Anivia": {
+    "Flash Frost": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "80/85/90/95/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Crystallize": {
+      "cooldowns": "17",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Frostbite": {
+      "cooldowns": "4",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Glacial Storm": {
+      "cooldowns": "4/3/2",
+      "costs": "60",
+      "resource": "+{{manacostpersecond}}Manapersecond"
+    }
+  },
+  "Annie": {
+    "Disintegrate": {
+      "cooldowns": "4",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Incinerate": {
+      "cooldowns": "7",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Molten Shield": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Summon: Tibbers": {
+      "cooldowns": "130/115/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Aphelios": {
+    "Weapon Abilites": {
+      "cooldowns": "9",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Phase": {
+      "cooldowns": "0.8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Weapon Queue System": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Moonlight Vigil": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Ashe": {
+    "Ranger's Focus": {
+      "cooldowns": "0",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Volley": {
+      "cooldowns": "18/14.5/11/7.5/4",
+      "costs": "75/70/65/60/55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hawkshot": {
+      "cooldowns": "5",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Enchanted Crystal Arrow": {
+      "cooldowns": "100/80/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Aurelion Sol": {
+    "Breath of Light": {
+      "cooldowns": "3",
+      "costs": "35/40/45/50/55",
+      "resource": "Manapersecond"
+    },
+    "Astral Flight": {
+      "cooldowns": "22/20.5/19/17.5/16",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Singularity": {
+      "cooldowns": "12",
+      "costs": "90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Falling Star / The Skies Descend": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Aurora": {
+    "Twofold Hex": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Across the Veil": {
+      "cooldowns": "22/21/20/19/18",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "The Weirding": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Between Worlds": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Azir": {
+    "Conquering Sands": {
+      "cooldowns": "14/12/10/8/6",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Arise!": {
+      "cooldowns": "1.5",
+      "costs": "40/35/30/25/20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shifting Sands": {
+      "cooldowns": "22/20.5/19/17.5/16",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Emperor's Divide": {
+      "cooldowns": "120/105/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Bard": {
+    "Cosmic Binding": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Caretaker's Shrine": {
+      "cooldowns": "0",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Magical Journey": {
+      "cooldowns": "22/20.5/19/17.5/16",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tempered Fate": {
+      "cooldowns": "110/95/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Bel'Veth": {
+    "Void Surge": {
+      "cooldowns": "1",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Above and Below": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Royal Maelstrom": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Endless Banquet": {
+      "cooldowns": "1",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Blitzcrank": {
+    "Rocket Grab": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Overdrive": {
+      "cooldowns": "15",
+      "costs": "75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Power Fist": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "25",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Static Field": {
+      "cooldowns": "60/40/20",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Brand": {
+    "Sear": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Pillar of Flame": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Conflagration": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Pyroclasm": {
+      "cooldowns": "100/90/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Braum": {
+    "Winter's Bite": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "45/50/55/60/65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Stand Behind Me": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Unbreakable": {
+      "cooldowns": "16/14/12/10/8",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Glacial Fissure": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Briar": {
+    "Head Rush": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "0",
+      "resource": "%ofcurrentHealth"
+    },
+    "Blood Frenzy / Snack Attack": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "0",
+      "resource": "%ofcurrentHealth"
+    },
+    "Chilling Scream": {
+      "cooldowns": "16",
+      "costs": "0",
+      "resource": "%ofcurrentHealth"
+    },
+    "Certain Death": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "%ofcurrentHealth"
+    }
+  },
+  "Caitlyn": {
+    "Piltover Peacemaker": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Yordle Snap Trap": {
+      "cooldowns": "0.5",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "90 Caliber Net": {
+      "cooldowns": "16/14/12/10/8",
+      "costs": "75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ace in the Hole": {
+      "cooldowns": "90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Camille": {
+    "Precision Protocol": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "25",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tactical Sweep": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hookshot": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "The Hextech Ultimatum": {
+      "cooldowns": "140/115/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Cassiopeia": {
+    "Noxious Blast": {
+      "cooldowns": "3.5",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Miasma": {
+      "cooldowns": "24/22/20/18/16",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Twin Fang": {
+      "cooldowns": "0.75",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Petrifying Gaze": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Cho'Gath": {
+    "Rupture": {
+      "cooldowns": "6",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Feral Scream": {
+      "cooldowns": "11/10.5/10/9.5/9",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Vorpal Spikes": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Feast": {
+      "cooldowns": "80/70/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Corki": {
+    "Phosphorus Bomb": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Valkyrie": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "80/85/90/95/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Gatling Gun": {
+      "cooldowns": "12",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Missile Barrage": {
+      "cooldowns": "2",
+      "costs": "35",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Darius": {
+    "Decimate": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "25/30/35/40/45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Crippling Strike": {
+      "cooldowns": "5",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Apprehend": {
+      "cooldowns": "26/23.5/21/18.5/16",
+      "costs": "70/60/50/40/30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Noxian Guillotine": {
+      "cooldowns": "120/100/80",
+      "costs": "100/100/0",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Diana": {
+    "Crescent Strike": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Pale Cascade": {
+      "cooldowns": "15/13.5/12/10.5/9",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lunar Rush": {
+      "cooldowns": "22/20/18/16/14",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Moonfall": {
+      "cooldowns": "100/90/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Draven": {
+    "Spinning Axe": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Blood Rush": {
+      "cooldowns": "12",
+      "costs": "40/35/30/25/20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Stand Aside": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Whirling Death": {
+      "cooldowns": "100/90/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Dr. Mundo": {
+    "Infected Bonesaw": {
+      "cooldowns": "4",
+      "costs": "0",
+      "resource": "Health"
+    },
+    "Heart Zapper": {
+      "cooldowns": "17/16.5/16/15.5/15",
+      "costs": "0",
+      "resource": "%CurrentHealth"
+    },
+    "Blunt Force Trauma": {
+      "cooldowns": "9/8.25/7.5/6.75/6",
+      "costs": "0",
+      "resource": "Health"
+    },
+    "Maximum Dosage": {
+      "cooldowns": "120",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Ekko": {
+    "Timewinder": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Parallel Convergence": {
+      "cooldowns": "22/20/18/16/14",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Phase Dive": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Chronobreak": {
+      "cooldowns": "110/80/50",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Elise": {
+    "Neurotoxin / Venomous Bite": {
+      "cooldowns": "6",
+      "costs": "80/85/90/95/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Volatile Spiderling / Skittering Frenzy": {
+      "cooldowns": "12",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Cocoon / Rappel": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spider Form": {
+      "cooldowns": "3",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Evelynn": {
+    "Hate Spike": {
+      "cooldowns": "4",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Allure": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Whiplash": {
+      "cooldowns": "8",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Last Caress": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Ezreal": {
+    "Mystic Shot": {
+      "cooldowns": "5.5/5.25/5/4.75/4.5",
+      "costs": "28/31/34/37/40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Essence Flux": {
+      "cooldowns": "8",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Arcane Shift": {
+      "cooldowns": "26/23/20/17/14",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Trueshot Barrage": {
+      "cooldowns": "120/105/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Fiddlesticks": {
+    "Terrify": {
+      "cooldowns": "15/14.5/14/13.5/13",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bountiful Harvest": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Reap": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Crowstorm": {
+      "cooldowns": "140/110/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Fiora": {
+    "Lunge": {
+      "cooldowns": "13/11.25/9.5/7.75/6",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Riposte": {
+      "cooldowns": "24/22/20/18/16",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bladework": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Grand Challenge": {
+      "cooldowns": "110/90/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Fizz": {
+    "Urchin Strike": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Seastone Trident": {
+      "cooldowns": "7/6/5/4/3",
+      "costs": "30/40/50/60/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Playful / Trickster": {
+      "cooldowns": "16/14/12/10/8",
+      "costs": "75/80/85/90/95",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Chum the Waters": {
+      "cooldowns": "100/85/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Galio": {
+    "Winds of War": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shield of Durand": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Justice Punch": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hero's Entrance": {
+      "cooldowns": "180/160/140",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Gangplank": {
+    "Parrrley": {
+      "cooldowns": "4.5",
+      "costs": "50/45/40/35/30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Remove Scurvy": {
+      "cooldowns": "22/20/18/16/14",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Powder Keg": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Cannon Barrage": {
+      "cooldowns": "160/140/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Garen": {
+    "Decisive Strike": {
+      "cooldowns": "8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Courage": {
+      "cooldowns": "22/19.5/17/14.5/12",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Judgment": {
+      "cooldowns": "9/8.25/7.5/6.75/6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Demacian Justice": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Gnar": {
+    "Boomerang Throw / Boulder Toss": {
+      "cooldowns": "16/14.5/13/11.5/10",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Hyper / Wallop": {
+      "cooldowns": "7",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Hop / Crunch": {
+      "cooldowns": "22/19.5/17/14.5/12",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "GNAR!": {
+      "cooldowns": "90/60/30",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Gragas": {
+    "Barrel Roll": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Drunken Rage": {
+      "cooldowns": "5",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Body Slam": {
+      "cooldowns": "14/13.5/13/12.5/12",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Explosive Cask": {
+      "cooldowns": "100/85/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Graves": {
+    "End of the Line": {
+      "cooldowns": "13/11.25/9.5/7.75/6",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Smoke Screen": {
+      "cooldowns": "26/24/22/20/18",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Quickdraw": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Collateral Damage": {
+      "cooldowns": "100/80/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Gwen": {
+    "Snip Snip!": {
+      "cooldowns": "6.5/5.75/5/4.25/3.5",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hallowed Mist": {
+      "cooldowns": "22/21/20/19/18",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Skip 'n Slash": {
+      "cooldowns": "13/12.5/12/11.5/11",
+      "costs": "35",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Needlework": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Hecarim": {
+    "Rampage": {
+      "cooldowns": "4",
+      "costs": "28/26/24/22/20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spirit of Dread": {
+      "cooldowns": "14",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Devastating Charge": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Onslaught of Shadows": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Heimerdinger": {
+    "H-28 G Evolution Turret": {
+      "cooldowns": "1",
+      "costs": "20",
+      "resource": "TurretKit&{{cost}}Mana"
+    },
+    "Hextech Micro-Rockets": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "CH-2 Electron Storm Grenade": {
+      "cooldowns": "11",
+      "costs": "85",
+      "resource": "{{abilityresourcename}}"
+    },
+    "UPGRADE!!!": {
+      "cooldowns": "100/85/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Hwei": {
+    "Subject: Disaster": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "80/90/100/110/120",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Subject: Serenity": {
+      "cooldowns": "18/17.5/17/16.5/16",
+      "costs": "90/95/100/105/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Subject: Torment": {
+      "cooldowns": "13/12.5/12/11.5/11",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spiraling Despair": {
+      "cooldowns": "140/115/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Illaoi": {
+    "Tentacle Smash": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Harsh Lesson": {
+      "cooldowns": "4",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Test of Spirit": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "35/40/45/50/55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Leap of Faith": {
+      "cooldowns": "120/95/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Irelia": {
+    "Bladesurge": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "15",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Defiant Dance": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Flawless Duet": {
+      "cooldowns": "16/14.5/13/11.5/10",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Vanguard's Edge": {
+      "cooldowns": "125/105/85",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Ivern": {
+    "Rootcaller": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Brushmaker": {
+      "cooldowns": "0.5",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Triggerseed": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Daisy!": {
+      "cooldowns": "140/130/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Janna": {
+    "Howling Gale": {
+      "cooldowns": "14",
+      "costs": "90/95/100/105/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Zephyr": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Eye Of The Storm": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Monsoon": {
+      "cooldowns": "130/115/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Jarvan IV": {
+    "Dragon Strike": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "45/50/55/60/65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Golden Aegis": {
+      "cooldowns": "9",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Demacian Standard": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Cataclysm": {
+      "cooldowns": "120/105/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Jax": {
+    "Leap Strike": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Empower": {
+      "cooldowns": "7/6/5/4/3",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Counter Strike": {
+      "cooldowns": "17/15/13/11/9",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Grandmaster-at-Arms": {
+      "cooldowns": "110/100/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Jayce": {
+    "To the Skies! / Shock Blast": {
+      "cooldowns": "16/14/12/10/8/6",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lightning Field / Hyper Charge": {
+      "cooldowns": "10",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Thundering Blow / Acceleration Gate": {
+      "cooldowns": "20/18/16/14/12/10",
+      "costs": "55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Mercury Cannon / Mercury Hammer": {
+      "cooldowns": "6",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Jhin": {
+    "Dancing Grenade": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Deadly Flourish": {
+      "cooldowns": "12",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Captive Audience": {
+      "cooldowns": "2",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Curtain Call": {
+      "cooldowns": "120/105/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Jinx": {
+    "Switcheroo!": {
+      "cooldowns": "0.9",
+      "costs": "20",
+      "resource": "ManaPerRocket"
+    },
+    "Zap!": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Flame Chompers!": {
+      "cooldowns": "24/20.5/17/13.5/10",
+      "costs": "90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Super Mega Death Rocket!": {
+      "cooldowns": "85/65/45",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Kai'Sa": {
+    "Icathian Rain": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Void Seeker": {
+      "cooldowns": "22/20/18/16/14",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Supercharge": {
+      "cooldowns": "16/14.5/13/11.5/10",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Killer Instinct": {
+      "cooldowns": "120/90/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Kalista": {
+    "Pierce": {
+      "cooldowns": "9",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Sentinel": {
+      "cooldowns": "30",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Rend": {
+      "cooldowns": "0",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Fate's Call": {
+      "cooldowns": "160/140/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Karma": {
+    "Inner Flame": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "40/50/60/70/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Focused Resolve": {
+      "cooldowns": "12",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Inspire": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Mantra": {
+      "cooldowns": "40/38/36/34",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Karthus": {
+    "Lay Waste": {
+      "cooldowns": "0",
+      "costs": "20/25/30/35/40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wall of Pain": {
+      "cooldowns": "15",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Defile": {
+      "cooldowns": "0.5",
+      "costs": "30/42/54/66/78",
+      "resource": "ManaperSecond"
+    },
+    "Requiem": {
+      "cooldowns": "200/180/160",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Kassadin": {
+    "Null Sphere": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Nether Blade": {
+      "cooldowns": "7",
+      "costs": "1",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Force Pulse": {
+      "cooldowns": "21/20/19/18/17",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Riftwalk": {
+      "cooldowns": "5/3.5/2",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Katarina": {
+    "Bouncing Blade": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Preparation": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Shunpo": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Death Lotus": {
+      "cooldowns": "75/60/45",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Kayle": {
+    "Radiant Blast": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Celestial Blessing": {
+      "cooldowns": "15",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Starfire Spellblade": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Divine Judgment": {
+      "cooldowns": "160/120/80",
+      "costs": "100/50/0",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Kayn": {
+    "Reaping Slash": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Blade's Reach": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shadow Step": {
+      "cooldowns": "21/19/17/15/13",
+      "costs": "90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Umbral Trespass": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Kennen": {
+    "Thundering Shuriken": {
+      "cooldowns": "7/6.25/5.5/4.75/4",
+      "costs": "60/55/50/45/40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Electrical Surge": {
+      "cooldowns": "13/11.25/9.5/7.75/6",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lightning Rush": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Slicing Maelstrom": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Kha'Zix": {
+    "Taste Their Fear": {
+      "cooldowns": "4",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Void Spike": {
+      "cooldowns": "9",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Leap": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Void Assault": {
+      "cooldowns": "100/85/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Kindred": {
+    "Dance of Arrows": {
+      "cooldowns": "9",
+      "costs": "35",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wolf's Frenzy": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Mounting Dread": {
+      "cooldowns": "14/12.5/11/9.5/8",
+      "costs": "0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lamb's Respite": {
+      "cooldowns": "160/140/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Kled": {
+    "Bear Trap on a Rope": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Violent Tendencies": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Jousting": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Chaaaaaaaarge!!!": {
+      "cooldowns": "140/125/110",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Kog'Maw": {
+    "Caustic Spittle": {
+      "cooldowns": "7",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bio-Arcane Barrage": {
+      "cooldowns": "17",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Void Ooze": {
+      "cooldowns": "12",
+      "costs": "40/55/70/85/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Living Artillery": {
+      "cooldowns": "2/1.5/1",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "K'Sante": {
+    "Ntofo Strikes": {
+      "cooldowns": "3.5",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Path Maker": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Footwork": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "45/50/55/60/65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "All Out": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "LeBlanc": {
+    "Sigil of Malice": {
+      "cooldowns": "6",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Distortion": {
+      "cooldowns": "15/13.75/12.5/11.25/10",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ethereal Chains": {
+      "cooldowns": "14/13.25/12.5/11.75/11",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Mimic": {
+      "cooldowns": "45/35/25",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Lee Sin": {
+    "Sonic Wave / Resonating Strike": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Safeguard / Iron Will": {
+      "cooldowns": "12",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tempest / Cripple": {
+      "cooldowns": "8",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Dragon's Rage": {
+      "cooldowns": "110/85/60",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Leona": {
+    "Shield of Daybreak": {
+      "cooldowns": "5",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Eclipse": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Zenith Blade": {
+      "cooldowns": "12/10.5/9/7.5/6",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Solar Flare": {
+      "cooldowns": "90/75/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Lillia": {
+    "Blooming Blows": {
+      "cooldowns": "6/5.5/5/4.5/4",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Watch Out! Eep!": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Swirlseed": {
+      "cooldowns": "12",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lilting Lullaby": {
+      "cooldowns": "140/120/100",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Lissandra": {
+    "Ice Shard": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ring of Frost": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Glacial Path": {
+      "cooldowns": "24/21/18/15/12",
+      "costs": "80/85/90/95/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Frozen Tomb": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Lucian": {
+    "Piercing Light": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "48/56/64/72/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ardent Blaze": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Relentless Pursuit": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "40/30/20/10/0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "The Culling": {
+      "cooldowns": "110/100/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Lulu": {
+    "Glitterlance": {
+      "cooldowns": "7",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Whimsy": {
+      "cooldowns": "18",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Help, Pix!": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wild Growth": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Lux": {
+    "Light Binding": {
+      "cooldowns": "11/10.5/10/9.5/9",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Prismatic Barrier": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lucent Singularity": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Final Spark": {
+      "cooldowns": "60/50/40",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Malphite": {
+    "Seismic Shard": {
+      "cooldowns": "8",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Thunderclap": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ground Slam": {
+      "cooldowns": "7",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Unstoppable Force": {
+      "cooldowns": "130/105/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Malzahar": {
+    "Call of the Void": {
+      "cooldowns": "6",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Void Swarm": {
+      "cooldowns": "8",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Malefic Visions": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Nether Grasp": {
+      "cooldowns": "140/110/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Maokai": {
+    "Bramble Smash": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Twisted Advance": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Sapling Toss": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Nature's Grasp": {
+      "cooldowns": "130/110/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Master Yi": {
+    "Alpha Strike": {
+      "cooldowns": "20/19.5/19/18.5/18",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Meditate": {
+      "cooldowns": "10",
+      "costs": "40",
+      "resource": "Mana(+{{percentmanacostpersecond*100}}%MaxManapersecond)"
+    },
+    "Wuju Style": {
+      "cooldowns": "14",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Highlander": {
+      "cooldowns": "85",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Mel": {
+    "Radiant Volley": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Rebuttal": {
+      "cooldowns": "35/32/29/26/23",
+      "costs": "80/60/40/20/0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Solar Snare": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Golden Eclipse": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Milio": {
+    "Ultra Mega Fire Kick": {
+      "cooldowns": "10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Cozy Campfire": {
+      "cooldowns": "29/27/25/23/21",
+      "costs": "90/100/110/120/130",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Warm Hugs": {
+      "cooldowns": "0.5",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Breath of Life": {
+      "cooldowns": "160/145/130",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Miss Fortune": {
+    "Double Up": {
+      "cooldowns": "7/6/5/4/3",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Strut": {
+      "cooldowns": "12",
+      "costs": "45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Make It Rain": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bullet Time": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Wukong": {
+    "Crushing Blow": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Warrior Trickster": {
+      "cooldowns": "22/21/20/19/18",
+      "costs": "60/55/50/45/40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Nimbus Strike": {
+      "cooldowns": "10/9.25/8.5/7.75/7",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Cyclone": {
+      "cooldowns": "130/110/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Mordekaiser": {
+    "Obliterate": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Indestructible": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Death's Grasp": {
+      "cooldowns": "18/16/14/12/10",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Realm of Death": {
+      "cooldowns": "140/120/100",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Morgana": {
+    "Dark Binding": {
+      "cooldowns": "10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tormented Shadow": {
+      "cooldowns": "12",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Black Shield": {
+      "cooldowns": "26/23.5/21/18.5/16",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Soul Shackles": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Naafiri": {
+    "Darkin Daggers": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "The Call of the Pack": {
+      "cooldowns": "26/24/22/20/18",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Eviscerate": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "35",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hounds' Pursuit": {
+      "cooldowns": "110/95/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Nami": {
+    "Aqua Prison": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ebb and Flow": {
+      "cooldowns": "10",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tidecaller's Blessing": {
+      "cooldowns": "11",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tidal Wave": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Nasus": {
+    "Siphoning Strike": {
+      "cooldowns": "7.5/6.5/5.5/4.5/3.5",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wither": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spirit Fire": {
+      "cooldowns": "12",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Fury of the Sands": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Nautilus": {
+    "Dredge Line": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Titan's Wrath": {
+      "cooldowns": "12",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Riptide": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Depth Charge": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Neeko": {
+    "Blooming Burst": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shapesplitter": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Tangle-Barbs": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Pop Blossom": {
+      "cooldowns": "120/105/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Nidalee": {
+    "Javelin Toss / Takedown": {
+      "cooldowns": "6",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bushwhack / Pounce": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Primal Surge / Swipe": {
+      "cooldowns": "12",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Aspect Of The Cougar": {
+      "cooldowns": "3",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Nilah": {
+    "Formless Blade": {
+      "cooldowns": "4",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Jubilant Veil": {
+      "cooldowns": "26/25/24/23/22",
+      "costs": "60/45/30/15/0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Slipstream": {
+      "cooldowns": "0.5",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Apotheosis": {
+      "cooldowns": "110/95/80",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Nocturne": {
+    "Duskbringer": {
+      "cooldowns": "8",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shroud of Darkness": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Unspeakable Horror": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Paranoia": {
+      "cooldowns": "140/115/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Nunu & Willump": {
+    "Consume": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "60",
+      "resource": "Mana"
+    },
+    "Biggest Snowball Ever!": {
+      "cooldowns": "14",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Snowball Barrage": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Absolute Zero": {
+      "cooldowns": "110/100/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Olaf": {
+    "Undertow": {
+      "cooldowns": "9",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tough It Out": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Reckless Swing": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "0",
+      "resource": "Health"
+    },
+    "Ragnarok": {
+      "cooldowns": "100/90/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Orianna": {
+    "Command: Attack": {
+      "cooldowns": "6/5.25/4.5/3.75/3",
+      "costs": "35",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Command: Dissonance": {
+      "cooldowns": "7",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Command: Protect": {
+      "cooldowns": "9",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Command: Shockwave": {
+      "cooldowns": "110/95/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Ornn": {
+    "Volcanic Rupture": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bellows Breath": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "45/50/55/60/65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Searing Charge": {
+      "cooldowns": "14/13.5/13/12.5/12",
+      "costs": "35/40/45/50/55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Call of the Forge God": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Pantheon": {
+    "Comet Spear": {
+      "cooldowns": "11/10.25/9.5/8.75/8",
+      "costs": "25",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shield Vault": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Aegis Assault": {
+      "cooldowns": "22/21/20/19/18",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Grand Starfall": {
+      "cooldowns": "180/165/150",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Poppy": {
+    "Hammer Shock": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "35/40/45/50/55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Steadfast Presence": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Heroic Charge": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Keeper's Verdict": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Pyke": {
+    "Bone Skewer": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ghostwater Dive": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Phantom Undertow": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Death From Below": {
+      "cooldowns": "100/85/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Qiyana": {
+    "Elemental Wrath / Edge of Ixtal": {
+      "cooldowns": "7",
+      "costs": "35",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Terrashape": {
+      "cooldowns": "7",
+      "costs": "25/30/35/40/45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Audacity": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Supreme Display of Talent": {
+      "cooldowns": "120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Quinn": {
+    "Blinding Assault": {
+      "cooldowns": "11/10.5/10/9.5/9",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Heightened Senses": {
+      "cooldowns": "50/45/40/35/30",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Vault": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Behind Enemy Lines": {
+      "cooldowns": "3",
+      "costs": "100/50/0",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Rakan": {
+    "Gleaming Quill": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Grand Entrance": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Battle Dance": {
+      "cooldowns": "0",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "The Quickness": {
+      "cooldowns": "130/110/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Rammus": {
+    "Powerball": {
+      "cooldowns": "12/10.5/9/7.5/6",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Defensive Ball Curl": {
+      "cooldowns": "7",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Frenzying Taunt": {
+      "cooldowns": "12",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Soaring Slam": {
+      "cooldowns": "120/105/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Rek'Sai": {
+    "Queen's Wrath / Prey Seeker": {
+      "cooldowns": "4/3.5/3/2.5/2",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Burrow / Un-burrow": {
+      "cooldowns": "4",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Furious Bite / Tunnel": {
+      "cooldowns": "6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Void Rush": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Rell": {
+    "Shattering Strike": {
+      "cooldowns": "11/10.5/10/9.5/9",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ferromancy: Crash Down": {
+      "cooldowns": "10",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Full Tilt": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Magnet Storm": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Renata Glasc": {
+    "Handshake": {
+      "cooldowns": "16",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bailout": {
+      "cooldowns": "28/27/26/25/24",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Loyalty Program": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hostile Takeover": {
+      "cooldowns": "150/130/110",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Renekton": {
+    "Cull the Meek": {
+      "cooldowns": "7",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Ruthless Predator": {
+      "cooldowns": "16/14/12/10/8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Slice and Dice": {
+      "cooldowns": "16/14.5/13/11.5/10",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Dominus": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Rengar": {
+    "Savagery": {
+      "cooldowns": "0.25",
+      "costs": "0",
+      "resource": "Generates1Ferocity"
+    },
+    "Battle Roar": {
+      "cooldowns": "0.25",
+      "costs": "0",
+      "resource": "Generates1Ferocity"
+    },
+    "Bola Strike": {
+      "cooldowns": "0.25",
+      "costs": "0",
+      "resource": "Generates1Ferocity"
+    },
+    "Thrill of the Hunt": {
+      "cooldowns": "100/90/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Riven": {
+    "Broken Wings": {
+      "cooldowns": "13",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Ki Burst": {
+      "cooldowns": "11/10/9/8/7",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Valor": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Blade of the Exile": {
+      "cooldowns": "120/90/60",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Rumble": {
+    "Flamespitter": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "0",
+      "resource": "Heat"
+    },
+    "Scrap Shield": {
+      "cooldowns": "6",
+      "costs": "0",
+      "resource": "Heat"
+    },
+    "Electro Harpoon": {
+      "cooldowns": "0.5",
+      "costs": "0",
+      "resource": "Heat"
+    },
+    "The Equalizer": {
+      "cooldowns": "130/105/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Ryze": {
+    "Overload": {
+      "cooldowns": "5",
+      "costs": "40/38/36/34/32",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Rune Prison": {
+      "cooldowns": "11/10.5/10/9.5/9",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spell Flux": {
+      "cooldowns": "3.5/3.25/3/2.75/2.5",
+      "costs": "35/45/55/65/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Realm Warp": {
+      "cooldowns": "180/160/140",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Samira": {
+    "Flair": {
+      "cooldowns": "6/5/4/3/2",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Blade Whirl": {
+      "cooldowns": "30/28/26/24/22",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wild Rush": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Inferno Trigger": {
+      "cooldowns": "5",
+      "costs": "0",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Sejuani": {
+    "Arctic Assault": {
+      "cooldowns": "19/17.5/16/14.5/13",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Winter's Wrath": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Permafrost": {
+      "cooldowns": "1.5",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Glacial Prison": {
+      "cooldowns": "130/110/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Senna": {
+    "Piercing Darkness": {
+      "cooldowns": "15",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Last Embrace": {
+      "cooldowns": "11",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Curse of the Black Mist": {
+      "cooldowns": "26/24.5/23/21.5/20",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Dawning Shadow": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Seraphine": {
+    "High Note": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Surround Sound": {
+      "cooldowns": "22",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Beat Drop": {
+      "cooldowns": "11/10.5/10/9.5/9",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Encore": {
+      "cooldowns": "160/140/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Sett": {
+    "Knuckle Down": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Haymaker": {
+      "cooldowns": "18/16.5/15/13.5/12",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Facebreaker": {
+      "cooldowns": "16/14.5/13/11.5/10",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "The Show Stopper": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Shaco": {
+    "Deceive": {
+      "cooldowns": "13/12.5/12/11.5/11",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Jack In The Box": {
+      "cooldowns": "15",
+      "costs": "70/65/60/55/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Two-Shiv Poison": {
+      "cooldowns": "8",
+      "costs": "75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hallucinate": {
+      "cooldowns": "100/90/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Shen": {
+    "Twilight Assault": {
+      "cooldowns": "8/7.25/6.5/5.75/5",
+      "costs": "140/130/120/110/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spirit's Refuge": {
+      "cooldowns": "16/14.5/13/11.5/10",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shadow Dash": {
+      "cooldowns": "18/16/14/12/10",
+      "costs": "150",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Stand United": {
+      "cooldowns": "200/180/160",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Shyvana": {
+    "Twin Bite": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Burnout": {
+      "cooldowns": "12",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Flame Breath": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Dragon's Descent": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "FuryaSecond"
+    }
+  },
+  "Singed": {
+    "Poison Trail": {
+      "cooldowns": "0",
+      "costs": "13",
+      "resource": "ManaperSecond"
+    },
+    "Mega Adhesive": {
+      "cooldowns": "17/16/15/14/13",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Fling": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Insanity Potion": {
+      "cooldowns": "100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Sion": {
+    "Decimating Smash": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Soul Furnace": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "65/70/75/80/85",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Roar of the Slayer": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "35/40/45/50/55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Unstoppable Onslaught": {
+      "cooldowns": "140/100/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Sivir": {
+    "Boomerang Blade": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ricochet": {
+      "cooldowns": "12",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spell Shield": {
+      "cooldowns": "24/22.5/21/19.5/18",
+      "costs": "0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "On The Hunt": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Skarner": {
+    "Shattered Earth / Upheaval": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "45",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Seismic Bastion": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Ixtal's Impact": {
+      "cooldowns": "22/21/20/19/18",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Impale": {
+      "cooldowns": "120/105/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Smolder": {
+    "Super Scorcher Breath": {
+      "cooldowns": "5.5/5/4.5/4/3.5",
+      "costs": "25",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Achooo!": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Flap, Flap, Flap": {
+      "cooldowns": "24/22/20/18/16",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "MMOOOMMMM!": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Sona": {
+    "Hymn of Valor": {
+      "cooldowns": "8",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Aria of Perseverance": {
+      "cooldowns": "10",
+      "costs": "80/85/90/95/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Song of Celerity": {
+      "cooldowns": "14",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Crescendo": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Soraka": {
+    "Starcall": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "45/50/55/60/65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Astral Infusion": {
+      "cooldowns": "6/5/4/3/2",
+      "costs": "40/45/50/55/60",
+      "resource": "%MaxHealth,{{cost}}Mana"
+    },
+    "Equinox": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wish": {
+      "cooldowns": "150/135/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Swain": {
+    "Death's Hand": {
+      "cooldowns": "7/6/5/4/3",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Vision of Empire": {
+      "cooldowns": "22/21/20/19/18",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Nevermove": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Demonic Ascension": {
+      "cooldowns": "120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Sylas": {
+    "Chain Lash": {
+      "cooldowns": "10/9/8/7/6",
+      "costs": "55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Kingslayer": {
+      "cooldowns": "12/10.5/9/7.5/6",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Abscond / Abduct": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hijack": {
+      "cooldowns": "80/55/30",
+      "costs": "75",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Syndra": {
+    "Dark Sphere": {
+      "cooldowns": "7",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Force of Will": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Scatter the Weak": {
+      "cooldowns": "15",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Unleashed Power": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Tahm Kench": {
+    "Tongue Lash": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "50/46/42/38/34",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Abyssal Dive": {
+      "cooldowns": "21/20/19/18/17",
+      "costs": "60/75/90/105/120",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Thick Skin": {
+      "cooldowns": "3",
+      "costs": "0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Devour": {
+      "cooldowns": "0",
+      "costs": "100",
+      "resource": "Mana"
+    }
+  },
+  "Taliyah": {
+    "Threaded Volley": {
+      "cooldowns": "7/6/5/4/3",
+      "costs": "55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Seismic Shove": {
+      "cooldowns": "14/12.5/11/9.5/8",
+      "costs": "40/30/20/10/0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Unraveled Earth": {
+      "cooldowns": "14",
+      "costs": "90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Weaver's Wall": {
+      "cooldowns": "180/150/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Talon": {
+    "Noxian Diplomacy": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Rake": {
+      "cooldowns": "9/8.5/8/7.5/7",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Assassin's Path": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Shadow Assault": {
+      "cooldowns": "100/80/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Taric": {
+    "Starlight's Touch": {
+      "cooldowns": "3",
+      "costs": "60",
+      "resource": "Mana,allCharges"
+    },
+    "Bastion": {
+      "cooldowns": "15",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Dazzle": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Cosmic Radiance": {
+      "cooldowns": "180/150/120",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Teemo": {
+    "Blinding Dart": {
+      "cooldowns": "7",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Move Quick": {
+      "cooldowns": "14",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Toxic Shot": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "Passive"
+    },
+    "Noxious Trap": {
+      "cooldowns": "0.25",
+      "costs": "75/55/35",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Thresh": {
+    "Death Sentence": {
+      "cooldowns": "19/16.5/14/11.5/9",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Dark Passage": {
+      "cooldowns": "21/20/19/18/17",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Flay": {
+      "cooldowns": "13/12.25/11.5/10.75/10",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "The Box": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Tristana": {
+    "Rapid Fire": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Rocket Jump": {
+      "cooldowns": "22/20/18/16/14",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Explosive Charge": {
+      "cooldowns": "16/15.5/15/14.5/14",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Buster Shot": {
+      "cooldowns": "100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Trundle": {
+    "Chomp": {
+      "cooldowns": "3.5",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Frozen Domain": {
+      "cooldowns": "18/17/16/15/14",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Pillar of Ice": {
+      "cooldowns": "21/19.5/18/16.5/15",
+      "costs": "75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Subjugate": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Tryndamere": {
+    "Bloodlust": {
+      "cooldowns": "12",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Mocking Shout": {
+      "cooldowns": "14",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Spinning Slash": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Undying Rage": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Twisted Fate": {
+    "Wild Cards": {
+      "cooldowns": "6/5.75/5.5/5.25/5",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Pick a Card": {
+      "cooldowns": "6",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Stacked Deck": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "Passive"
+    },
+    "Destiny": {
+      "cooldowns": "170/140/110",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Twitch": {
+    "Ambush": {
+      "cooldowns": "16",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Venom Cask": {
+      "cooldowns": "13/12/11/10/9",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Contaminate": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spray and Pray": {
+      "cooldowns": "90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Udyr": {
+    "Wilding Claw": {
+      "cooldowns": "6",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Iron Mantle": {
+      "cooldowns": "6",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Blazing Stampede": {
+      "cooldowns": "6",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wingborne Storm": {
+      "cooldowns": "6",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Urgot": {
+    "Corrosive Charge": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Purge": {
+      "cooldowns": "12/9/6/3/0",
+      "costs": "40/30/20/10/0",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Disdain": {
+      "cooldowns": "16/15.5/15/14.5/14",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Fear Beyond Death": {
+      "cooldowns": "100/85/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Varus": {
+    "Piercing Arrow": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Blighted Quiver": {
+      "cooldowns": "40",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Hail of Arrows": {
+      "cooldowns": "18/16/14/12/10",
+      "costs": "90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Chain of Corruption": {
+      "cooldowns": "100/80/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Vayne": {
+    "Tumble": {
+      "cooldowns": "6/5/4/3/2",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Silver Bolts": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "Passive"
+    },
+    "Condemn": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Final Hour": {
+      "cooldowns": "100/85/70",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Veigar": {
+    "Baleful Strike": {
+      "cooldowns": "6/5.5/5/4.5/4",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Dark Matter": {
+      "cooldowns": "0",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Event Horizon": {
+      "cooldowns": "20/18.5/17/15.5/14",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Primordial Burst": {
+      "cooldowns": "100/80/60",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Vel'Koz": {
+    "Plasma Fission": {
+      "cooldowns": "7",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Void Rift": {
+      "cooldowns": "1.5",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Tectonic Disruption": {
+      "cooldowns": "12/11.5/11/10.5/10",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Life Form Disintegration Ray": {
+      "cooldowns": "100/90/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Vex": {
+    "Mistral Bolt": {
+      "cooldowns": "8/7/6/5/4",
+      "costs": "45/50/55/60/65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Personal Space": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Looming Darkness": {
+      "cooldowns": "13",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shadow Surge": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Vi": {
+    "Vault Breaker": {
+      "cooldowns": "12/10.5/9/7.5/6",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Denting Blows": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "Passive"
+    },
+    "Relentless Force": {
+      "cooldowns": "1",
+      "costs": "26/32/38/44/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Cease and Desist": {
+      "cooldowns": "140/115/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Viego": {
+    "Blade of the Ruined King": {
+      "cooldowns": "5/4.5/4/3.5/3",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Spectral Maw": {
+      "cooldowns": "8",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Harrowed Path": {
+      "cooldowns": "14/12/10/8/6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Heartbreaker": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Viktor": {
+    "Siphon Power": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "45/50/55/60/65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Gravity Field": {
+      "cooldowns": "17/16/15/14/13",
+      "costs": "65",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hextech Ray": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "60/70/80/90/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Arcane Storm": {
+      "cooldowns": "120/100/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Vladimir": {
+    "Transfusion": {
+      "cooldowns": "9/7.9/6.8/5.7/4.6",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Sanguine Pool": {
+      "cooldowns": "28/25/22/19/16",
+      "costs": "0",
+      "resource": "%ofcurrentHealth"
+    },
+    "Tides of Blood": {
+      "cooldowns": "13/11/9/7/5",
+      "costs": "0",
+      "resource": "%ofmaxHealth({{chargehealthtooltip}})"
+    },
+    "Hemoplague": {
+      "cooldowns": "120",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Volibear": {
+    "Thundering Smash": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Frenzied Maul": {
+      "cooldowns": "5",
+      "costs": "30/35/40/45/50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Sky Splitter": {
+      "cooldowns": "14",
+      "costs": "60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Stormbringer": {
+      "cooldowns": "160/135/110",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Warwick": {
+    "Jaws of the Beast": {
+      "cooldowns": "8/7.5/7/6.5/6",
+      "costs": "80/85/90/95/100",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Blood Hunt": {
+      "cooldowns": "80/70/60/50/40",
+      "costs": "55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Primal Howl": {
+      "cooldowns": "15/14/13/12/11",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Infinite Duress": {
+      "cooldowns": "110/90/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Xayah": {
+    "Double Daggers": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Deadly Plumage": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "60/55/50/45/40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Bladecaller": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Featherstorm": {
+      "cooldowns": "140/120/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Xerath": {
+    "Arcanopulse": {
+      "cooldowns": "9/8/7/6/5",
+      "costs": "80/90/100/110/120",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Eye of Destruction": {
+      "cooldowns": "14/13/12/11/10",
+      "costs": "80/90/100/110/120",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shocking Orb": {
+      "cooldowns": "13/12.5/12/11.5/11",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Rite of the Arcane": {
+      "cooldowns": "130/115/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Xin Zhao": {
+    "Three Talon Strike": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "30",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Wind Becomes Lightning": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "60/55/50/45/40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Audacious Charge": {
+      "cooldowns": "11",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Crescent Guard": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Yasuo": {
+    "Steel Tempest": {
+      "cooldowns": "4",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Wind Wall": {
+      "cooldowns": "25/23/21/19/17",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Sweeping Blade": {
+      "cooldowns": "0.5/0.4/0.3/0.2/0.1",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Last Breath": {
+      "cooldowns": "70/50/30",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Yone": {
+    "Mortal Steel": {
+      "cooldowns": "4",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Spirit Cleave": {
+      "cooldowns": "14",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Soul Unbound": {
+      "cooldowns": "22/19/16/13/10",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Fate Sealed": {
+      "cooldowns": "120/100/80",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Yorick": {
+    "Last Rites": {
+      "cooldowns": "6/5.5/5/4.5/4",
+      "costs": "20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Dark Procession": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Mourning Mist": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Eulogy of the Isles": {
+      "cooldowns": "160/130/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Yunara": {
+    "Cultivation of Spirit": {
+      "cooldowns": "0",
+      "costs": "30",
+      "resource": "Mana"
+    },
+    "Arc of Judgment | Arc of Ruin": {
+      "cooldowns": "10",
+      "costs": "60",
+      "resource": "Mana"
+    },
+    "Kanmei's Steps | Untouchable Shadow": {
+      "cooldowns": "9",
+      "costs": "40",
+      "resource": "Mana"
+    },
+    "Transcend One's Self": {
+      "cooldowns": "100/90/80",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Yuumi": {
+    "Prowling Projectile": {
+      "cooldowns": "6.5",
+      "costs": "50/55/60/65/70/75",
+      "resource": "{{abilityresourcename}}"
+    },
+    "You and Me!": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Zoomies": {
+      "cooldowns": "10",
+      "costs": "80/90/100/110/120",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Final Chapter": {
+      "cooldowns": "120/110/100",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Zac": {
+    "Stretching Strikes": {
+      "cooldowns": "14/12.5/11/9.5/8",
+      "costs": "0",
+      "resource": "%ofcurrentHealth({{healthcosttooltip}})"
+    },
+    "Unstable Matter": {
+      "cooldowns": "5",
+      "costs": "0",
+      "resource": "%ofcurrentHealth({{tooltiphealthcost}})"
+    },
+    "Elastic Slingshot": {
+      "cooldowns": "22/19/16/13/10",
+      "costs": "0",
+      "resource": "%ofcurrentHealth({{healthcosttooltip}})"
+    },
+    "Let's Bounce!": {
+      "cooldowns": "120/105/90",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Zed": {
+    "Razor Shuriken": {
+      "cooldowns": "6",
+      "costs": "75/70/65/60/55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Living Shadow": {
+      "cooldowns": "20/19/18/17/16",
+      "costs": "40/35/30/25/20",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Shadow Slash": {
+      "cooldowns": "5/4.5/4/3.5/3",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Death Mark": {
+      "cooldowns": "120/110/100",
+      "costs": "0",
+      "resource": "NoCost"
+    }
+  },
+  "Zeri": {
+    "Burst Fire": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Ultrashock Laser": {
+      "cooldowns": "12/11/10/9/8",
+      "costs": "50/60/70/80/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spark Surge": {
+      "cooldowns": "22/21/20/19/18",
+      "costs": "90/85/80/75/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Lightning Crash": {
+      "cooldowns": "80/75/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Ziggs": {
+    "Bouncing Bomb": {
+      "cooldowns": "6/5.5/5/4.5/4",
+      "costs": "50/55/60/65/70",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Satchel Charge": {
+      "cooldowns": "20/18/16/14/12",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Hexplosive Minefield": {
+      "cooldowns": "16",
+      "costs": "70/80/90/100/110",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Mega Inferno Bomb": {
+      "cooldowns": "120/95/70",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Zilean": {
+    "Time Bomb": {
+      "cooldowns": "10/9.5/9/8.5/8",
+      "costs": "60/65/70/75/80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Rewind": {
+      "cooldowns": "14/12/10/8/6",
+      "costs": "35",
+      "resource": "Mana"
+    },
+    "Time Warp": {
+      "cooldowns": "15",
+      "costs": "50",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Chronoshift": {
+      "cooldowns": "120/90/60",
+      "costs": "125/150/175",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Zoe": {
+    "Paddle Star!": {
+      "cooldowns": "8.5/8/7.5/7/6.5",
+      "costs": "40/45/50/55/60",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Spell Thief": {
+      "cooldowns": "0.25",
+      "costs": "0",
+      "resource": "NoCost"
+    },
+    "Sleepy Trouble Bubble": {
+      "cooldowns": "16/15/14/13/12",
+      "costs": "80",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Portal Jump": {
+      "cooldowns": "11/8/5",
+      "costs": "40",
+      "resource": "{{abilityresourcename}}"
+    }
+  },
+  "Zyra": {
+    "Deadly Spines": {
+      "cooldowns": "7/6.5/6/5.5/5",
+      "costs": "55",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Rampant Growth": {
+      "cooldowns": "0",
+      "costs": "0",
+      "resource": "1Seed"
+    },
+    "Grasping Roots": {
+      "cooldowns": "11",
+      "costs": "70/75/80/85/90",
+      "resource": "{{abilityresourcename}}"
+    },
+    "Stranglethorns": {
+      "cooldowns": "110/100/90",
+      "costs": "100",
+      "resource": "{{abilityresourcename}}"
+    }
+  }
+}
