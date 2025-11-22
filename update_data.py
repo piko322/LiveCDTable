@@ -246,18 +246,14 @@ if __name__ == "__main__":
 
     os.makedirs("data", exist_ok=True)
 
-    if not os.path.exists(fp):
-        print(f"File {fp} not found — generating new cooldown dataset...")
-        all_champs = get_all_champion_names(meraki=False)
-        if all_champs:
-            cooldowns, _ = get_champion_cooldowns(all_champs, current_version)
-            cooldowns = champion_cooldowns_renamed(cooldowns)
-            with open(fp, "w") as f:
-                json.dump(cooldowns, f, indent=4)
-            print(f"Cooldown data saved to {fp}.")
-        else:
-            print("No champion data available.")
+    all_champs = get_all_champion_names(meraki=False)
+    if all_champs:
+        cooldowns, _ = get_champion_cooldowns(all_champs, current_version)
+        cooldowns = champion_cooldowns_renamed(cooldowns)
+        with open(fp, "w") as f:
+            json.dump(cooldowns, f, indent=4)
+        print(f"Cooldown data saved to {fp}.")
     else:
-        print(f"File {fp} already exists — skipping rebuild.")
+        print("No champion data available.")
 
     generate_manifest(current_version)
