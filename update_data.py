@@ -248,7 +248,7 @@ if __name__ == "__main__":
 
     if not os.path.exists(fp):
         print(f"File {fp} not found — generating new cooldown dataset...")
-        all_champs = get_all_champion_names(meraki=True)
+        all_champs = get_all_champion_names(meraki=False)
         if all_champs:
             cooldowns, _ = get_champion_cooldowns(all_champs, current_version)
             cooldowns = champion_cooldowns_renamed(cooldowns)
