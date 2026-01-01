@@ -1,93 +1,9 @@
 {
-    "Aurora": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Aurora.png",
-        "Q": "9 / 8.5 / 8 / 7.5 / 7",
-        "W": "22 / 21 / 20 / 19 / 18",
-        "E": "15 / 14 / 13 / 12 / 11",
-        "R": "140 / 120 / 100"
-    },
     "Ambessa": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ambessa.png",
         "Q": "14 / 13 / 12 / 11 / 10",
         "W": "18 / 17 / 16 / 15 / 14",
         "E": "13 / 12 / 11 / 10 / 9",
-        "R": "130 / 115 / 100"
-    },
-    "Aurelion Sol": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/AurelionSol.png",
-        "Q": "3 all ranks",
-        "W": "22 / 20.5 / 19 / 17.5 / 16",
-        "E": "12 all ranks",
-        "R": "120 / 110 / 100"
-    },
-    "Anivia": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Anivia.png",
-        "Q": "12 / 11 / 10 / 9 / 8",
-        "W": "17 all ranks",
-        "E": "4 all ranks",
-        "R": "4 / 3 / 2"
-    },
-    "Belveth": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Belveth.png",
-        "Q": "1 all ranks",
-        "W": "12 / 11 / 10 / 9 / 8",
-        "E": "20 / 19 / 18 / 17 / 16",
-        "R": "1 all ranks"
-    },
-    "Azir": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Azir.png",
-        "Q": "14 / 12 / 10 / 8 / 6",
-        "W": "1.5 all ranks <br> recharge: <br> 10 / 9 / 8 / 7 / 6",
-        "E": "22 / 20.5 / 19 / 17.5 / 16",
-        "R": "120 / 105 / 90"
-    },
-    "Bard": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Bard.png",
-        "Q": "11 / 10 / 9 / 8 / 7",
-        "W": "No CD <br> recharge: <br> 18 all ranks",
-        "E": "22 / 20.5 / 19 / 17.5 / 16",
-        "R": "110 / 95 / 80"
-    },
-    "Ahri": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ahri.png",
-        "Q": "7 all ranks",
-        "W": "10 / 9 / 8 / 7 / 6",
-        "E": "12 all ranks",
-        "R": "130 / 115 / 100"
-    },
-    "Alistar": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Alistar.png",
-        "Q": "14 / 13 / 12 / 11 / 10",
-        "W": "14 / 13 / 12 / 11 / 10",
-        "E": "12 / 11.5 / 11 / 10.5 / 10",
-        "R": "120 / 100 / 80"
-    },
-    "Amumu": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Amumu.png",
-        "Q": "3 all ranks <br> recharge: <br> 16 / 15.5 / 15 / 14.5 / 14",
-        "W": "1 all ranks",
-        "E": "9 / 8 / 7 / 6 / 5",
-        "R": "150 / 125 / 100"
-    },
-    "Akshan": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Akshan.png",
-        "Q": "8 / 7.25 / 6.5 / 5.75 / 5",
-        "W": "18 / 14 / 10 / 6 / 2",
-        "E": "18 / 16.5 / 15 / 13.5 / 12",
-        "R": "100 / 85 / 70"
-    },
-    "Aatrox": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Aatrox.png",
-        "Q": "14 / 12 / 10 / 8 / 6",
-        "W": "20 / 18 / 16 / 14 / 12",
-        "E": "9 / 8 / 7 / 6 / 5",
-        "R": "120 / 100 / 80"
-    },
-    "Annie": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Annie.png",
-        "Q": "4 all ranks",
-        "W": "7 all ranks",
-        "E": "12 / 11.5 / 11 / 10.5 / 10",
         "R": "130 / 115 / 100"
     },
     "Aphelios": {
@@ -97,12 +13,75 @@
         "E": "No CD",
         "R": "120 / 110 / 100"
     },
-    "Akali": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Akali.png",
-        "Q": "1.5 all ranks",
-        "W": "20 / 19 / 18 / 17 / 16",
-        "E": "16 / 14.5 / 13 / 11.5 / 10",
-        "R": "120 / 90 / 60"
+    "Alistar": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Alistar.png",
+        "Q": "14 / 13 / 12 / 11 / 10",
+        "W": "14 / 13 / 12 / 11 / 10",
+        "E": "12 / 11.5 / 11 / 10.5 / 10",
+        "R": "120 / 100 / 80"
+    },
+    "Aurelion Sol": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/AurelionSol.png",
+        "Q": "3 all ranks",
+        "W": "22 / 20.5 / 19 / 17.5 / 16",
+        "E": "12 all ranks",
+        "R": "120 / 110 / 100"
+    },
+    "Aurora": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Aurora.png",
+        "Q": "9 / 8.5 / 8 / 7.5 / 7",
+        "W": "22 / 21 / 20 / 19 / 18",
+        "E": "15 / 14 / 13 / 12 / 11",
+        "R": "140 / 120 / 100"
+    },
+    "Bard": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Bard.png",
+        "Q": "11 / 10 / 9 / 8 / 7",
+        "W": "No CD <br> recharge: <br> 18 all ranks",
+        "E": "22 / 20.5 / 19 / 17.5 / 16",
+        "R": "110 / 95 / 80"
+    },
+    "Annie": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Annie.png",
+        "Q": "4 all ranks",
+        "W": "7 all ranks",
+        "E": "12 / 11.5 / 11 / 10.5 / 10",
+        "R": "130 / 115 / 100"
+    },
+    "Anivia": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Anivia.png",
+        "Q": "12 / 11 / 10 / 9 / 8",
+        "W": "17 all ranks",
+        "E": "4 all ranks",
+        "R": "4 / 3 / 2"
+    },
+    "Azir": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Azir.png",
+        "Q": "14 / 12 / 10 / 8 / 6",
+        "W": "1.5 all ranks <br> recharge: <br> 10 / 9 / 8 / 7 / 6",
+        "E": "22 / 20.5 / 19 / 17.5 / 16",
+        "R": "120 / 105 / 90"
+    },
+    "Akshan": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Akshan.png",
+        "Q": "8 / 7.25 / 6.5 / 5.75 / 5",
+        "W": "18 / 14 / 10 / 6 / 2",
+        "E": "18 / 16.5 / 15 / 13.5 / 12",
+        "R": "100 / 85 / 70"
+    },
+    "Belveth": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Belveth.png",
+        "Q": "1 all ranks",
+        "W": "12 / 11 / 10 / 9 / 8",
+        "E": "20 / 19 / 18 / 17 / 16",
+        "R": "1 all ranks"
+    },
+    "Aatrox": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Aatrox.png",
+        "Q": "14 / 12 / 10 / 8 / 6",
+        "W": "20 / 18 / 16 / 14 / 12",
+        "E": "9 / 8 / 7 / 6 / 5",
+        "R": "120 / 100 / 80"
     },
     "Ashe": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ashe.png",
@@ -111,12 +90,33 @@
         "E": "5 all ranks <br> recharge: <br> 90 / 80 / 70 / 60 / 50",
         "R": "100 / 80 / 60"
     },
+    "Ahri": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ahri.png",
+        "Q": "7 all ranks",
+        "W": "10 / 9 / 8 / 7 / 6",
+        "E": "12 all ranks",
+        "R": "130 / 115 / 100"
+    },
+    "Amumu": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Amumu.png",
+        "Q": "3 all ranks <br> recharge: <br> 16 / 15.5 / 15 / 14.5 / 14",
+        "W": "1 all ranks",
+        "E": "9 / 8 / 7 / 6 / 5",
+        "R": "150 / 125 / 100"
+    },
     "Blitzcrank": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Blitzcrank.png",
         "Q": "20 / 19 / 18 / 17 / 16",
         "W": "15 all ranks",
         "E": "9 / 8 / 7 / 6 / 5",
         "R": "60 / 40 / 20"
+    },
+    "Akali": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Akali.png",
+        "Q": "1.5 all ranks",
+        "W": "20 / 19 / 18 / 17 / 16",
+        "E": "16 / 14.5 / 13 / 11.5 / 10",
+        "R": "120 / 90 / 60"
     },
     "Brand": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Brand.png",
@@ -125,47 +125,12 @@
         "E": "13 / 12 / 11 / 10 / 9",
         "R": "110 / 100 / 90"
     },
-    "Camille": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Camille.png",
-        "Q": "9 / 8 / 7 / 6 / 5",
-        "W": "17 / 15.5 / 14 / 12.5 / 11",
-        "E": "16 / 15 / 14 / 13 / 12",
-        "R": "140 / 115 / 90"
-    },
     "Braum": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Braum.png",
         "Q": "8 / 7.5 / 7 / 6.5 / 6",
         "W": "12 / 11 / 10 / 9 / 8",
         "E": "16 / 14 / 12 / 10 / 8",
         "R": "120 / 100 / 80"
-    },
-    "Chogath": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Chogath.png",
-        "Q": "6 all ranks",
-        "W": "11 / 10.5 / 10 / 9.5 / 9",
-        "E": "8 / 7 / 6 / 5 / 4",
-        "R": "80 / 70 / 60"
-    },
-    "Darius": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Darius.png",
-        "Q": "9 / 8 / 7 / 6 / 5",
-        "W": "5 all ranks",
-        "E": "26 / 23.5 / 21 / 18.5 / 16",
-        "R": "120 / 100 / 80"
-    },
-    "Diana": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Diana.png",
-        "Q": "8 / 7.5 / 7 / 6.5 / 6",
-        "W": "15 / 13.5 / 12 / 10.5 / 9",
-        "E": "22 / 20 / 18 / 16 / 14",
-        "R": "100 / 90 / 80"
-    },
-    "Draven": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Draven.png",
-        "Q": "12 / 11 / 10 / 9 / 8",
-        "W": "12 all ranks",
-        "E": "18 / 17 / 16 / 15 / 14",
-        "R": "100 / 90 / 80"
     },
     "Caitlyn": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Caitlyn.png",
@@ -174,11 +139,25 @@
         "E": "16 / 14 / 12 / 10 / 8",
         "R": "90 all ranks"
     },
+    "Camille": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Camille.png",
+        "Q": "9 / 8 / 7 / 6 / 5",
+        "W": "17 / 15.5 / 14 / 12.5 / 11",
+        "E": "16 / 15 / 14 / 13 / 12",
+        "R": "140 / 115 / 90"
+    },
     "Briar": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Briar.png",
         "Q": "13 / 12 / 11 / 10 / 9",
         "W": "14 / 13 / 12 / 11 / 10",
         "E": "16 all ranks",
+        "R": "120 / 100 / 80"
+    },
+    "Darius": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Darius.png",
+        "Q": "9 / 8 / 7 / 6 / 5",
+        "W": "5 all ranks",
+        "E": "26 / 23.5 / 21 / 18.5 / 16",
         "R": "120 / 100 / 80"
     },
     "Cassiopeia": {
@@ -188,40 +167,12 @@
         "E": "0.75 all ranks",
         "R": "120 / 100 / 80"
     },
-    "Fiora": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fiora.png",
-        "Q": "13 / 11.25 / 9.5 / 7.75 / 6",
-        "W": "24 / 22 / 20 / 18 / 16",
-        "E": "11 / 10 / 9 / 8 / 7",
-        "R": "110 / 90 / 70"
-    },
-    "Ekko": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ekko.png",
-        "Q": "9 / 8.5 / 8 / 7.5 / 7",
-        "W": "22 / 20 / 18 / 16 / 14",
-        "E": "9 / 8.5 / 8 / 7.5 / 7",
-        "R": "110 / 80 / 50"
-    },
-    "Evelynn": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Evelynn.png",
-        "Q": "4 all ranks",
-        "W": "15 / 14 / 13 / 12 / 11",
-        "E": "8 all ranks",
-        "R": "120 / 100 / 80"
-    },
-    "Dr Mundo": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/DrMundo.png",
-        "Q": "4 all ranks",
-        "W": "17 / 16.5 / 16 / 15.5 / 15",
-        "E": "9 / 8.25 / 7.5 / 6.75 / 6",
-        "R": "120 all ranks"
-    },
-    "Corki": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Corki.png",
-        "Q": "9 / 8.5 / 8 / 7.5 / 7",
-        "W": "20 / 18 / 16 / 14 / 12",
-        "E": "12 all ranks",
-        "R": "2 all ranks <br> recharge: <br> 20 all ranks"
+    "Chogath": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Chogath.png",
+        "Q": "6 all ranks",
+        "W": "11 / 10.5 / 10 / 9.5 / 9",
+        "E": "8 / 7 / 6 / 5 / 4",
+        "R": "80 / 70 / 60"
     },
     "Elise": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Elise.png",
@@ -230,19 +181,40 @@
         "E": "12 / 11.5 / 11 / 10.5 / 10",
         "R": "3 all ranks"
     },
-    "Fiddlesticks": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fiddlesticks.png",
-        "Q": "15 / 14.5 / 14 / 13.5 / 13",
-        "W": "10 / 9.5 / 9 / 8.5 / 8",
-        "E": "10 / 9 / 8 / 7 / 6",
-        "R": "140 / 110 / 80"
+    "Corki": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Corki.png",
+        "Q": "9 / 8.5 / 8 / 7.5 / 7",
+        "W": "20 / 18 / 16 / 14 / 12",
+        "E": "12 all ranks",
+        "R": "2 all ranks <br> recharge: <br> 20 all ranks"
     },
-    "Fizz": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fizz.png",
+    "Ekko": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ekko.png",
+        "Q": "9 / 8.5 / 8 / 7.5 / 7",
+        "W": "22 / 20 / 18 / 16 / 14",
+        "E": "9 / 8.5 / 8 / 7.5 / 7",
+        "R": "110 / 80 / 50"
+    },
+    "Draven": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Draven.png",
+        "Q": "12 / 11 / 10 / 9 / 8",
+        "W": "12 all ranks",
+        "E": "18 / 17 / 16 / 15 / 14",
+        "R": "100 / 90 / 80"
+    },
+    "Dr Mundo": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/DrMundo.png",
+        "Q": "4 all ranks",
+        "W": "17 / 16.5 / 16 / 15.5 / 15",
+        "E": "9 / 8.25 / 7.5 / 6.75 / 6",
+        "R": "120 all ranks"
+    },
+    "Diana": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Diana.png",
         "Q": "8 / 7.5 / 7 / 6.5 / 6",
-        "W": "7 / 6.5 / 6 / 5.5 / 5",
-        "E": "16 / 14 / 12 / 10 / 8",
-        "R": "100 / 85 / 70"
+        "W": "15 / 13.5 / 12 / 10.5 / 9",
+        "E": "22 / 20 / 18 / 16 / 14",
+        "R": "100 / 90 / 80"
     },
     "Ezreal": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ezreal.png",
@@ -251,12 +223,54 @@
         "E": "26 / 23 / 20 / 17 / 14",
         "R": "120 / 105 / 90"
     },
+    "Evelynn": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Evelynn.png",
+        "Q": "4 all ranks",
+        "W": "15 / 14 / 13 / 12 / 11",
+        "E": "8 all ranks",
+        "R": "120 / 100 / 80"
+    },
+    "Fiddlesticks": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fiddlesticks.png",
+        "Q": "15 / 14.5 / 14 / 13.5 / 13",
+        "W": "10 / 9.5 / 9 / 8.5 / 8",
+        "E": "10 / 9 / 8 / 7 / 6",
+        "R": "140 / 110 / 80"
+    },
     "Galio": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Galio.png",
         "Q": "11 / 10 / 9 / 8 / 7",
         "W": "18 / 17 / 16 / 15 / 14",
         "E": "11 / 10 / 9 / 8 / 7",
         "R": "180 / 160 / 140"
+    },
+    "Fiora": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fiora.png",
+        "Q": "13 / 11.25 / 9.5 / 7.75 / 6",
+        "W": "24 / 22 / 20 / 18 / 16",
+        "E": "11 / 10 / 9 / 8 / 7",
+        "R": "110 / 90 / 70"
+    },
+    "Fizz": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fizz.png",
+        "Q": "8 / 7.5 / 7 / 6.5 / 6",
+        "W": "7 / 6.5 / 6 / 5.5 / 5",
+        "E": "16 / 14 / 12 / 10 / 8",
+        "R": "100 / 85 / 70"
+    },
+    "Gnar": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Gnar.png",
+        "Q": "20 / 17.5 / 15 / 12.5 / 10",
+        "W": "No CD",
+        "E": "22 / 19.5 / 17 / 14.5 / 12",
+        "R": "90 / 60 / 30"
+    },
+    "Gragas": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Gragas.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "5 all ranks",
+        "E": "14 / 13.5 / 13 / 12.5 / 12",
+        "R": "100 / 85 / 70"
     },
     "Garen": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Garen.png",
@@ -272,26 +286,12 @@
         "E": "0.5 all ranks <br> recharge: <br> 17 / 16 / 15 / 14 / 13",
         "R": "170 / 150 / 130"
     },
-    "Gragas": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Gragas.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "5 all ranks",
-        "E": "14 / 13.5 / 13 / 12.5 / 12",
-        "R": "100 / 85 / 70"
-    },
-    "Gnar": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Gnar.png",
-        "Q": "20 / 17.5 / 15 / 12.5 / 10",
-        "W": "No CD",
-        "E": "22 / 19.5 / 17 / 14.5 / 12",
-        "R": "90 / 60 / 30"
-    },
-    "Hecarim": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Hecarim.png",
-        "Q": "4 all ranks",
-        "W": "14 all ranks",
-        "E": "20 / 19 / 18 / 17 / 16",
-        "R": "140 / 120 / 100"
+    "Graves": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Graves.png",
+        "Q": "13 / 11.25 / 9.5 / 7.75 / 6",
+        "W": "26 / 24 / 22 / 20 / 18",
+        "E": "16 / 15 / 14 / 13 / 12",
+        "R": "100 / 80 / 60"
     },
     "Gwen": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Gwen.png",
@@ -300,26 +300,12 @@
         "E": "12 / 11 / 10 / 9 / 8",
         "R": "120 / 100 / 80"
     },
-    "Irelia": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Irelia.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "20 / 18 / 16 / 14 / 12",
-        "E": "16 / 15 / 14 / 13 / 12",
-        "R": "125 / 105 / 85"
-    },
-    "Graves": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Graves.png",
-        "Q": "13 / 11.25 / 9.5 / 7.75 / 6",
-        "W": "26 / 24 / 22 / 20 / 18",
-        "E": "16 / 15 / 14 / 13 / 12",
-        "R": "100 / 80 / 60"
-    },
-    "Hwei": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Hwei.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "18 / 17.5 / 17 / 16.5 / 16",
-        "E": "13 / 12.5 / 12 / 11.5 / 11",
-        "R": "140 / 115 / 80"
+    "Hecarim": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Hecarim.png",
+        "Q": "4 all ranks",
+        "W": "14 all ranks",
+        "E": "20 / 19 / 18 / 17 / 16",
+        "R": "140 / 120 / 100"
     },
     "Heimerdinger": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Heimerdinger.png",
@@ -335,40 +321,12 @@
         "E": "11 / 10 / 9 / 8 / 7",
         "R": "140 / 130 / 120"
     },
-    "Jax": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Jax.png",
-        "Q": "8 / 7.5 / 7 / 6.5 / 6",
-        "W": "7 / 6 / 5 / 4 / 3",
-        "E": "17 / 15 / 13 / 11 / 9",
-        "R": "110 / 100 / 90"
-    },
-    "Jhin": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Jhin.png",
-        "Q": "7 / 6.5 / 6 / 5.5 / 5",
-        "W": "12 all ranks",
-        "E": "2 all ranks <br> recharge: <br> 24 / 21.5 / 19 / 16.5 / 14",
-        "R": "120 / 105 / 90"
-    },
     "Illaoi": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Illaoi.png",
         "Q": "10 / 9 / 8 / 7 / 6",
         "W": "4 all ranks",
         "E": "16 / 15 / 14 / 13 / 12",
         "R": "120 / 95 / 70"
-    },
-    "Jarvan I V": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/JarvanIV.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "9 all ranks",
-        "E": "12 / 11.5 / 11 / 10.5 / 10",
-        "R": "120 / 105 / 90"
-    },
-    "Karma": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Karma.png",
-        "Q": "9 / 8 / 7 / 6 / 5",
-        "W": "12 all ranks",
-        "E": "10 / 9.5 / 9 / 8.5 / 8",
-        "R": "40 / 38 / 36 / 34"
     },
     "Jayce": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Jayce.png",
@@ -377,12 +335,40 @@
         "E": "20 / 18 / 16 / 14 / 12 / 10",
         "R": "6 all ranks"
     },
+    "Hwei": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Hwei.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "18 / 17.5 / 17 / 16.5 / 16",
+        "E": "13 / 12.5 / 12 / 11.5 / 11",
+        "R": "140 / 115 / 80"
+    },
+    "Irelia": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Irelia.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "20 / 18 / 16 / 14 / 12",
+        "E": "16 / 15 / 14 / 13 / 12",
+        "R": "125 / 105 / 85"
+    },
+    "Jax": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Jax.png",
+        "Q": "8 / 7.5 / 7 / 6.5 / 6",
+        "W": "7 / 6 / 5 / 4 / 3",
+        "E": "17 / 15 / 13 / 11 / 9",
+        "R": "110 / 100 / 90"
+    },
     "Janna": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Janna.png",
         "Q": "14 all ranks",
         "W": "8 / 7.5 / 7 / 6.5 / 6",
         "E": "16 / 15 / 14 / 13 / 12",
         "R": "130 / 115 / 100"
+    },
+    "Jarvan I V": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/JarvanIV.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "9 all ranks",
+        "E": "12 / 11.5 / 11 / 10.5 / 10",
+        "R": "120 / 105 / 90"
     },
     "Jinx": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Jinx.png",
@@ -391,40 +377,19 @@
         "E": "24 / 20.5 / 17 / 13.5 / 10",
         "R": "85 / 65 / 45"
     },
+    "Jhin": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Jhin.png",
+        "Q": "7 / 6.5 / 6 / 5.5 / 5",
+        "W": "12 all ranks",
+        "E": "2 all ranks <br> recharge: <br> 24 / 21.5 / 19 / 16.5 / 14",
+        "R": "120 / 105 / 90"
+    },
     "Kalista": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kalista.png",
         "Q": "8 all ranks",
         "W": "30 all ranks <br> recharge: <br> 90 / 80 / 70 / 60 / 50",
         "E": "10 / 9.5 / 9 / 8.5 / 8",
         "R": "160 / 140 / 120"
-    },
-    "Karthus": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Karthus.png",
-        "Q": "1 all ranks",
-        "W": "15 all ranks",
-        "E": "0.5 all ranks",
-        "R": "200 / 180 / 160"
-    },
-    "Kaisa": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kaisa.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "22 / 20 / 18 / 16 / 14",
-        "E": "16 / 14.5 / 13 / 11.5 / 10",
-        "R": "120 / 90 / 60"
-    },
-    "Katarina": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Katarina.png",
-        "Q": "11 / 10 / 9 / 8 / 7",
-        "W": "15 / 14 / 13 / 12 / 11",
-        "E": "12 / 11 / 10 / 9 / 8",
-        "R": "75 / 60 / 45"
-    },
-    "Kennen": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kennen.png",
-        "Q": "7 / 6.25 / 5.5 / 4.75 / 4",
-        "W": "13 / 11.25 / 9.5 / 7.75 / 6",
-        "E": "10 / 9 / 8 / 7 / 6",
-        "R": "120 / 100 / 80"
     },
     "Kassadin": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kassadin.png",
@@ -433,12 +398,19 @@
         "E": "21 / 20 / 19 / 18 / 17",
         "R": "5 / 3.5 / 2"
     },
-    "Khazix": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Khazix.png",
-        "Q": "4 all ranks",
-        "W": "9 all ranks",
-        "E": "20 / 18 / 16 / 14 / 12",
-        "R": "100 / 85 / 70"
+    "Karma": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Karma.png",
+        "Q": "9 / 8 / 7 / 6 / 5",
+        "W": "12 all ranks",
+        "E": "10 / 9.5 / 9 / 8.5 / 8",
+        "R": "40 / 38 / 36 / 34"
+    },
+    "Kaisa": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kaisa.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "22 / 20 / 18 / 16 / 14",
+        "E": "16 / 14.5 / 13 / 11.5 / 10",
+        "R": "120 / 90 / 60"
     },
     "Kayle": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kayle.png",
@@ -447,12 +419,26 @@
         "E": "8 / 7.5 / 7 / 6.5 / 6",
         "R": "160 / 120 / 80"
     },
-    "Kindred": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kindred.png",
-        "Q": "9 all ranks",
-        "W": "18 / 17 / 16 / 15 / 14",
-        "E": "14 / 12.5 / 11 / 9.5 / 8",
-        "R": "180 / 150 / 120"
+    "Karthus": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Karthus.png",
+        "Q": "1 all ranks",
+        "W": "15 all ranks",
+        "E": "0.5 all ranks",
+        "R": "200 / 180 / 160"
+    },
+    "Katarina": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Katarina.png",
+        "Q": "11 / 10 / 9 / 8 / 7",
+        "W": "15 / 14 / 13 / 12 / 11",
+        "E": "12 / 11 / 10 / 9 / 8",
+        "R": "75 / 60 / 45"
+    },
+    "Khazix": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Khazix.png",
+        "Q": "4 all ranks",
+        "W": "9 all ranks",
+        "E": "20 / 18 / 16 / 14 / 12",
+        "R": "100 / 85 / 70"
     },
     "Kayn": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kayn.png",
@@ -468,6 +454,34 @@
         "E": "13 / 12 / 11 / 10 / 9",
         "R": "140 / 125 / 110"
     },
+    "Kennen": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kennen.png",
+        "Q": "7 / 6.25 / 5.5 / 4.75 / 4",
+        "W": "13 / 11.25 / 9.5 / 7.75 / 6",
+        "E": "10 / 9 / 8 / 7 / 6",
+        "R": "120 / 100 / 80"
+    },
+    "Lee Sin": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/LeeSin.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "12 all ranks",
+        "E": "9 all ranks",
+        "R": "110 / 85 / 60"
+    },
+    "Leblanc": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Leblanc.png",
+        "Q": "6 all ranks",
+        "W": "15 / 13.75 / 12.5 / 11.25 / 10",
+        "E": "14 / 13.25 / 12.5 / 11.75 / 11",
+        "R": "50 / 40 / 30"
+    },
+    "Kindred": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kindred.png",
+        "Q": "9 all ranks",
+        "W": "18 / 17 / 16 / 15 / 14",
+        "E": "14 / 12.5 / 11 / 9.5 / 8",
+        "R": "180 / 150 / 120"
+    },
     "Kog Maw": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/KogMaw.png",
         "Q": "7 all ranks",
@@ -481,13 +495,6 @@
         "W": "14 / 13 / 12 / 11 / 10",
         "E": "10 / 9.5 / 9 / 8.5 / 8",
         "R": "120 / 100 / 80"
-    },
-    "Lillia": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Lillia.png",
-        "Q": "6 / 5.5 / 5 / 4.5 / 4",
-        "W": "14 / 13 / 12 / 11 / 10",
-        "E": "12 all ranks",
-        "R": "150 / 130 / 110"
     },
     "Leona": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Leona.png",
@@ -503,27 +510,6 @@
         "E": "16 / 15.5 / 15 / 14.5 / 14",
         "R": "110 / 100 / 90"
     },
-    "Lee Sin": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/LeeSin.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "12 all ranks",
-        "E": "9 all ranks",
-        "R": "110 / 85 / 60"
-    },
-    "Lulu": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Lulu.png",
-        "Q": "7 all ranks",
-        "W": "18 all ranks",
-        "E": "8 all ranks",
-        "R": "100 / 90 / 80"
-    },
-    "Leblanc": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Leblanc.png",
-        "Q": "6 all ranks",
-        "W": "15 / 13.75 / 12.5 / 11.25 / 10",
-        "E": "14 / 13.25 / 12.5 / 11.75 / 11",
-        "R": "50 / 40 / 30"
-    },
     "Lissandra": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Lissandra.png",
         "Q": "8 / 7 / 6 / 5 / 4",
@@ -538,6 +524,20 @@
         "E": "10 / 9.5 / 9 / 8.5 / 8",
         "R": "60 / 50 / 40"
     },
+    "Maokai": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Maokai.png",
+        "Q": "7 / 6.5 / 6 / 5.5 / 5",
+        "W": "14 / 13 / 12 / 11 / 10",
+        "E": "18 / 17 / 16 / 15 / 14",
+        "R": "130 / 110 / 90"
+    },
+    "Lillia": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Lillia.png",
+        "Q": "6 / 5.5 / 5 / 4.5 / 4",
+        "W": "14 / 13 / 12 / 11 / 10",
+        "E": "12 all ranks",
+        "R": "150 / 130 / 110"
+    },
     "Malphite": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Malphite.png",
         "Q": "8 all ranks",
@@ -545,19 +545,12 @@
         "E": "7 all ranks",
         "R": "130 / 105 / 80"
     },
-    "Milio": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Milio.png",
-        "Q": "10 all ranks",
-        "W": "29 / 27 / 25 / 23 / 21",
-        "E": "0.5 all ranks <br> recharge: <br> 17 / 16 / 15 / 14 / 13",
-        "R": "160 / 145 / 130"
-    },
-    "Monkey King": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/MonkeyKing.png",
-        "Q": "8 / 7.5 / 7 / 6.5 / 6",
-        "W": "20 / 19 / 18 / 17 / 16",
-        "E": "10 / 9.25 / 8.5 / 7.75 / 7",
-        "R": "130 / 110 / 90"
+    "Lulu": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Lulu.png",
+        "Q": "7 all ranks",
+        "W": "18 all ranks",
+        "E": "8 all ranks",
+        "R": "100 / 90 / 80"
     },
     "Malzahar": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Malzahar.png",
@@ -566,27 +559,6 @@
         "E": "11 / 10 / 9 / 8 / 7",
         "R": "140 / 110 / 80"
     },
-    "Mel": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Mel.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "35 / 32 / 29 / 26 / 23",
-        "E": "12 / 11.5 / 11 / 10.5 / 10",
-        "R": "120 / 100 / 80"
-    },
-    "Maokai": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Maokai.png",
-        "Q": "7 / 6.5 / 6 / 5.5 / 5",
-        "W": "14 / 13 / 12 / 11 / 10",
-        "E": "18 / 17 / 16 / 15 / 14",
-        "R": "130 / 110 / 90"
-    },
-    "Miss Fortune": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/MissFortune.png",
-        "Q": "7 / 6 / 5 / 4 / 3",
-        "W": "12 all ranks",
-        "E": "18 / 17 / 16 / 15 / 14",
-        "R": "120 / 110 / 100"
-    },
     "Master Yi": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/MasterYi.png",
         "Q": "20 / 19.5 / 19 / 18.5 / 18",
@@ -594,12 +566,12 @@
         "E": "14 all ranks",
         "R": "85 all ranks"
     },
-    "Mordekaiser": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Mordekaiser.png",
-        "Q": "8 / 7 / 6 / 5 / 4",
-        "W": "12 / 11 / 10 / 9 / 8",
-        "E": "18 / 16 / 14 / 12 / 10",
-        "R": "140 / 120 / 100"
+    "Milio": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Milio.png",
+        "Q": "10 all ranks",
+        "W": "29 / 27 / 25 / 23 / 21",
+        "E": "0.5 all ranks <br> recharge: <br> 17 / 16 / 15 / 14 / 13",
+        "R": "160 / 145 / 130"
     },
     "Morgana": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Morgana.png",
@@ -608,6 +580,27 @@
         "E": "26 / 23.5 / 21 / 18.5 / 16",
         "R": "120 / 110 / 100"
     },
+    "Mel": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Mel.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "35 / 32 / 29 / 26 / 23",
+        "E": "12 / 11.5 / 11 / 10.5 / 10",
+        "R": "120 / 100 / 80"
+    },
+    "Mordekaiser": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Mordekaiser.png",
+        "Q": "8 / 7 / 6 / 5 / 4",
+        "W": "12 / 11 / 10 / 9 / 8",
+        "E": "18 / 16 / 14 / 12 / 10",
+        "R": "140 / 120 / 100"
+    },
+    "Monkey King": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/MonkeyKing.png",
+        "Q": "8 / 7.5 / 7 / 6.5 / 6",
+        "W": "20 / 19 / 18 / 17 / 16",
+        "E": "10 / 9.25 / 8.5 / 7.75 / 7",
+        "R": "130 / 110 / 90"
+    },
     "Naafiri": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Naafiri.png",
         "Q": "9 / 8.5 / 8 / 7.5 / 7",
@@ -615,12 +608,12 @@
         "E": "11 / 10 / 9 / 8 / 7",
         "R": "110 / 95 / 80"
     },
-    "Neeko": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Neeko.png",
-        "Q": "9 / 8.5 / 8 / 7.5 / 7",
-        "W": "16 / 15 / 14 / 13 / 12",
-        "E": "12 / 11.5 / 11 / 10.5 / 10",
-        "R": "120 / 105 / 90"
+    "Miss Fortune": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/MissFortune.png",
+        "Q": "7 / 6 / 5 / 4 / 3",
+        "W": "12 all ranks",
+        "E": "18 / 17 / 16 / 15 / 14",
+        "R": "120 / 110 / 100"
     },
     "Nami": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nami.png",
@@ -629,12 +622,26 @@
         "E": "11 all ranks",
         "R": "120 / 110 / 100"
     },
+    "Nocturne": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nocturne.png",
+        "Q": "8 all ranks",
+        "W": "20 / 18 / 16 / 14 / 12",
+        "E": "15 / 14 / 13 / 12 / 11",
+        "R": "140 / 115 / 90"
+    },
     "Nasus": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nasus.png",
         "Q": "7.5 / 6.5 / 5.5 / 4.5 / 3.5",
         "W": "15 / 14 / 13 / 12 / 11",
         "E": "12 all ranks",
         "R": "120 / 100 / 80"
+    },
+    "Nilah": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nilah.png",
+        "Q": "4 all ranks",
+        "W": "26 / 25 / 24 / 23 / 22",
+        "E": "0.5 all ranks <br> recharge: <br> 26 / 22.5 / 19 / 15.5 / 12",
+        "R": "110 / 95 / 80"
     },
     "Nautilus": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nautilus.png",
@@ -650,19 +657,33 @@
         "E": "12 all ranks",
         "R": "3 all ranks"
     },
-    "Nocturne": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nocturne.png",
-        "Q": "8 all ranks",
-        "W": "20 / 18 / 16 / 14 / 12",
-        "E": "15 / 14 / 13 / 12 / 11",
-        "R": "140 / 115 / 90"
+    "Neeko": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Neeko.png",
+        "Q": "9 / 8.5 / 8 / 7.5 / 7",
+        "W": "16 / 15 / 14 / 13 / 12",
+        "E": "12 / 11.5 / 11 / 10.5 / 10",
+        "R": "120 / 105 / 90"
     },
-    "Nilah": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nilah.png",
-        "Q": "4 all ranks",
-        "W": "26 / 25 / 24 / 23 / 22",
-        "E": "0.5 all ranks <br> recharge: <br> 26 / 22.5 / 19 / 15.5 / 12",
-        "R": "110 / 95 / 80"
+    "Nunu": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nunu.png",
+        "Q": "12 / 11 / 10 / 9 / 8",
+        "W": "14 all ranks",
+        "E": "14 / 13 / 12 / 11 / 10",
+        "R": "110 / 100 / 90"
+    },
+    "Pantheon": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Pantheon.png",
+        "Q": "11 / 10.25 / 9.5 / 8.75 / 8",
+        "W": "13 / 12 / 11 / 10 / 9",
+        "E": "22 / 21 / 20 / 19 / 18",
+        "R": "180 / 165 / 150"
+    },
+    "Olaf": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Olaf.png",
+        "Q": "9 all ranks",
+        "W": "16 / 15 / 14 / 13 / 12",
+        "E": "11 / 10 / 9 / 8 / 7",
+        "R": "100 / 90 / 80"
     },
     "Poppy": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Poppy.png",
@@ -678,26 +699,12 @@
         "E": "9 all ranks",
         "R": "110 / 95 / 80"
     },
-    "Ornn": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ornn.png",
-        "Q": "9 / 8.5 / 8 / 7.5 / 7",
-        "W": "12 / 11.5 / 11 / 10.5 / 10",
-        "E": "14 / 13.5 / 13 / 12.5 / 12",
-        "R": "140 / 120 / 100"
-    },
     "Quinn": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Quinn.png",
         "Q": "11 / 10.5 / 10 / 9.5 / 9",
         "W": "50 / 45 / 40 / 35 / 30",
         "E": "12 / 11 / 10 / 9 / 8",
         "R": "3 all ranks"
-    },
-    "Pyke": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Pyke.png",
-        "Q": "10 / 9.5 / 9 / 8.5 / 8",
-        "W": "14 / 13 / 12 / 11 / 10",
-        "E": "14 / 13 / 12 / 11 / 10",
-        "R": "100 / 85 / 70"
     },
     "Qiyana": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Qiyana.png",
@@ -706,19 +713,19 @@
         "E": "11 / 10 / 9 / 8 / 7",
         "R": "120 all ranks"
     },
-    "Nunu": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nunu.png",
-        "Q": "12 / 11 / 10 / 9 / 8",
-        "W": "14 all ranks",
-        "E": "14 / 13 / 12 / 11 / 10",
-        "R": "110 / 100 / 90"
+    "Ornn": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ornn.png",
+        "Q": "9 / 8.5 / 8 / 7.5 / 7",
+        "W": "12 / 11.5 / 11 / 10.5 / 10",
+        "E": "14 / 13.5 / 13 / 12.5 / 12",
+        "R": "140 / 120 / 100"
     },
-    "Pantheon": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Pantheon.png",
-        "Q": "11 / 10.25 / 9.5 / 8.75 / 8",
-        "W": "13 / 12 / 11 / 10 / 9",
-        "E": "22 / 21 / 20 / 19 / 18",
-        "R": "180 / 165 / 150"
+    "Pyke": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Pyke.png",
+        "Q": "10 / 9.5 / 9 / 8.5 / 8",
+        "W": "14 / 13 / 12 / 11 / 10",
+        "E": "14 / 13 / 12 / 11 / 10",
+        "R": "100 / 85 / 70"
     },
     "Rek Sai": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/RekSai.png",
@@ -741,6 +748,13 @@
         "E": "20 / 18 / 16 / 14 / 12",
         "R": "130 / 110 / 90"
     },
+    "Renata": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Renata.png",
+        "Q": "16 all ranks",
+        "W": "28 / 27 / 26 / 25 / 24",
+        "E": "14 / 13 / 12 / 11 / 10",
+        "R": "150 / 130 / 110"
+    },
     "Rammus": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Rammus.png",
         "Q": "12 / 10.5 / 9 / 7.5 / 6",
@@ -755,33 +769,12 @@
         "E": "14 / 13 / 12 / 11 / 10",
         "R": "120 / 100 / 80"
     },
-    "Rengar": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Rengar.png",
-        "Q": "6 / 5.5 / 5 / 4.5 / 4",
-        "W": "16 / 14.5 / 13 / 11.5 / 10",
-        "E": "10 all ranks",
-        "R": "110 / 100 / 90"
-    },
-    "Olaf": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Olaf.png",
-        "Q": "9 all ranks",
-        "W": "16 / 15 / 14 / 13 / 12",
-        "E": "11 / 10 / 9 / 8 / 7",
-        "R": "100 / 90 / 80"
-    },
     "Riven": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Riven.png",
         "Q": "13 all ranks",
         "W": "11 / 10 / 9 / 8 / 7",
         "E": "10 / 9 / 8 / 7 / 6",
         "R": "120 / 90 / 60"
-    },
-    "Renata": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Renata.png",
-        "Q": "16 all ranks",
-        "W": "28 / 27 / 26 / 25 / 24",
-        "E": "14 / 13 / 12 / 11 / 10",
-        "R": "150 / 130 / 110"
     },
     "Rumble": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Rumble.png",
@@ -790,19 +783,19 @@
         "E": "0.5 all ranks <br> recharge: <br> 6 all ranks",
         "R": "130 / 105 / 80"
     },
+    "Rengar": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Rengar.png",
+        "Q": "6 / 5.5 / 5 / 4.5 / 4",
+        "W": "16 / 14.5 / 13 / 11.5 / 10",
+        "E": "10 all ranks",
+        "R": "110 / 100 / 90"
+    },
     "Samira": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Samira.png",
         "Q": "6 / 5 / 4 / 3 / 2",
         "W": "30 / 28 / 26 / 24 / 22",
         "E": "20 / 18 / 16 / 14 / 12",
         "R": "5 all ranks"
-    },
-    "Ryze": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ryze.png",
-        "Q": "5 all ranks",
-        "W": "11 / 10.5 / 10 / 9.5 / 9",
-        "E": "3.5 / 3.25 / 3 / 2.75 / 2.5",
-        "R": "180 / 160 / 140"
     },
     "Sejuani": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sejuani.png",
@@ -811,26 +804,19 @@
         "E": "1.5 all ranks",
         "R": "130 / 110 / 90"
     },
+    "Ryze": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ryze.png",
+        "Q": "5 all ranks",
+        "W": "11 / 10.5 / 10 / 9.5 / 9",
+        "E": "3.5 / 3.25 / 3 / 2.75 / 2.5",
+        "R": "180 / 160 / 140"
+    },
     "Senna": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Senna.png",
         "Q": "15 all ranks",
         "W": "11 all ranks",
         "E": "26 / 24.5 / 23 / 21.5 / 20",
         "R": "140 / 120 / 100"
-    },
-    "Seraphine": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Seraphine.png",
-        "Q": "8 / 7.5 / 7 / 6.5 / 6",
-        "W": "22 all ranks",
-        "E": "11 / 10.5 / 10 / 9.5 / 9",
-        "R": "160 / 140 / 120"
-    },
-    "Shen": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Shen.png",
-        "Q": "8 / 7.25 / 6.5 / 5.75 / 5",
-        "W": "16 / 14.5 / 13 / 11.5 / 10",
-        "E": "18 / 16 / 14 / 12 / 10",
-        "R": "200 / 180 / 160"
     },
     "Shaco": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Shaco.png",
@@ -839,12 +825,12 @@
         "E": "8 all ranks",
         "R": "100 / 90 / 80"
     },
-    "Skarner": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Skarner.png",
-        "Q": "13 / 11.5 / 10 / 8.5 / 7",
-        "W": "10 / 9 / 8 / 7 / 6",
-        "E": "22 / 21 / 20 / 19 / 18",
-        "R": "120 / 105 / 90"
+    "Shen": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Shen.png",
+        "Q": "8 / 7.25 / 6.5 / 5.75 / 5",
+        "W": "16 / 14.5 / 13 / 11.5 / 10",
+        "E": "18 / 16 / 14 / 12 / 10",
+        "R": "200 / 180 / 160"
     },
     "Sett": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sett.png",
@@ -860,12 +846,26 @@
         "E": "12 / 11 / 10 / 9 / 8",
         "R": "No CD"
     },
-    "Smolder": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Smolder.png",
-        "Q": "5.5 / 5 / 4.5 / 4 / 3.5",
-        "W": "14 / 13 / 12 / 11 / 10",
-        "E": "24 / 22 / 20 / 18 / 16",
-        "R": "120 / 110 / 100"
+    "Sion": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sion.png",
+        "Q": "10 / 9 / 8 / 7 / 6",
+        "W": "15 / 14 / 13 / 12 / 11",
+        "E": "12 / 11 / 10 / 9 / 8",
+        "R": "140 / 100 / 60"
+    },
+    "Seraphine": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Seraphine.png",
+        "Q": "8 / 7.5 / 7 / 6.5 / 6",
+        "W": "22 all ranks",
+        "E": "11 / 10.5 / 10 / 9.5 / 9",
+        "R": "160 / 140 / 120"
+    },
+    "Sivir": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sivir.png",
+        "Q": "10 / 9.5 / 9 / 8.5 / 8",
+        "W": "12 all ranks",
+        "E": "24 / 22.5 / 21 / 19.5 / 18",
+        "R": "120 / 100 / 80"
     },
     "Singed": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Singed.png",
@@ -874,11 +874,46 @@
         "E": "10 / 9.5 / 9 / 8.5 / 8",
         "R": "100 all ranks"
     },
-    "Sivir": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sivir.png",
-        "Q": "10 / 9.5 / 9 / 8.5 / 8",
-        "W": "12 all ranks",
-        "E": "24 / 22.5 / 21 / 19.5 / 18",
+    "Soraka": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Soraka.png",
+        "Q": "8 / 7 / 6 / 5 / 4",
+        "W": "6 / 5 / 4 / 3 / 2",
+        "E": "20 / 19 / 18 / 17 / 16",
+        "R": "150 / 135 / 120"
+    },
+    "Sona": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sona.png",
+        "Q": "8 all ranks",
+        "W": "10 all ranks",
+        "E": "14 all ranks",
+        "R": "140 / 120 / 100"
+    },
+    "Smolder": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Smolder.png",
+        "Q": "5.5 / 5 / 4.5 / 4 / 3.5",
+        "W": "14 / 13 / 12 / 11 / 10",
+        "E": "24 / 22 / 20 / 18 / 16",
+        "R": "120 / 110 / 100"
+    },
+    "Swain": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Swain.png",
+        "Q": "7 / 6 / 5 / 4 / 3",
+        "W": "22 / 21 / 20 / 19 / 18",
+        "E": "12 / 11.5 / 11 / 10.5 / 10",
+        "R": "120 all ranks"
+    },
+    "Skarner": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Skarner.png",
+        "Q": "13 / 11.5 / 10 / 8.5 / 7",
+        "W": "10 / 9 / 8 / 7 / 6",
+        "E": "22 / 21 / 20 / 19 / 18",
+        "R": "120 / 105 / 90"
+    },
+    "Syndra": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Syndra.png",
+        "Q": "7 all ranks <br> recharge: <br> 7 all ranks",
+        "W": "12 / 11 / 10 / 9 / 8",
+        "E": "17 all ranks",
         "R": "120 / 100 / 80"
     },
     "Sylas": {
@@ -888,26 +923,12 @@
         "E": "13 / 12 / 11 / 10 / 9",
         "R": "80 / 55 / 30"
     },
-    "Soraka": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Soraka.png",
-        "Q": "8 / 7 / 6 / 5 / 4",
-        "W": "6 / 5 / 4 / 3 / 2",
-        "E": "20 / 19 / 18 / 17 / 16",
-        "R": "150 / 135 / 120"
-    },
-    "Syndra": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Syndra.png",
-        "Q": "7 all ranks <br> recharge: <br> 7 all ranks",
-        "W": "12 / 11 / 10 / 9 / 8",
-        "E": "17 all ranks",
-        "R": "120 / 100 / 80"
-    },
-    "Swain": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Swain.png",
+    "Taliyah": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Taliyah.png",
         "Q": "7 / 6 / 5 / 4 / 3",
-        "W": "22 / 21 / 20 / 19 / 18",
-        "E": "12 / 11.5 / 11 / 10.5 / 10",
-        "R": "120 all ranks"
+        "W": "14 / 12.5 / 11 / 9.5 / 8",
+        "E": "14 all ranks",
+        "R": "180 / 150 / 120"
     },
     "Tahm Kench": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/TahmKench.png",
@@ -916,40 +937,12 @@
         "E": "3 all ranks",
         "R": "120 / 100 / 80"
     },
-    "Sona": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sona.png",
-        "Q": "8 all ranks",
-        "W": "10 all ranks",
-        "E": "14 all ranks",
-        "R": "140 / 120 / 100"
-    },
     "Talon": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Talon.png",
         "Q": "8 / 7.5 / 7 / 6.5 / 6",
         "W": "9 / 8.5 / 8 / 7.5 / 7",
         "E": "2 all ranks",
         "R": "100 / 80 / 60"
-    },
-    "Taliyah": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Taliyah.png",
-        "Q": "7 / 6 / 5 / 4 / 3",
-        "W": "14 / 12.5 / 11 / 9.5 / 8",
-        "E": "14 all ranks",
-        "R": "180 / 150 / 120"
-    },
-    "Taric": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Taric.png",
-        "Q": "3 all ranks <br> recharge: <br> 15 all ranks",
-        "W": "15 all ranks",
-        "E": "16 / 15 / 14 / 13 / 12",
-        "R": "180 / 150 / 120"
-    },
-    "Sion": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sion.png",
-        "Q": "10 / 9 / 8 / 7 / 6",
-        "W": "15 / 14 / 13 / 12 / 11",
-        "E": "12 / 11 / 10 / 9 / 8",
-        "R": "140 / 100 / 60"
     },
     "Teemo": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Teemo.png",
@@ -958,12 +951,26 @@
         "E": "No CD",
         "R": "0.25 all ranks <br> recharge: <br> 35 / 30 / 25"
     },
-    "Twisted Fate": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/TwistedFate.png",
-        "Q": "6 / 5.75 / 5.5 / 5.25 / 5",
-        "W": "6 all ranks",
-        "E": "No CD",
+    "Thresh": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Thresh.png",
+        "Q": "19 / 16.5 / 14 / 11.5 / 9",
+        "W": "21 / 20 / 19 / 18 / 17",
+        "E": "13 / 12.25 / 11.5 / 10.75 / 10",
+        "R": "120 / 100 / 80"
+    },
+    "Taric": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Taric.png",
+        "Q": "3 all ranks <br> recharge: <br> 15 all ranks",
+        "W": "15 all ranks",
+        "E": "16 / 15 / 14 / 13 / 12",
         "R": "180 / 150 / 120"
+    },
+    "Tryndamere": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Tryndamere.png",
+        "Q": "12 all ranks",
+        "W": "14 all ranks",
+        "E": "12 / 11 / 10 / 9 / 8",
+        "R": "120 / 100 / 80"
     },
     "Trundle": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Trundle.png",
@@ -979,54 +986,12 @@
         "E": "16 / 15.5 / 15 / 14.5 / 14",
         "R": "100 all ranks"
     },
-    "Thresh": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Thresh.png",
-        "Q": "19 / 16.5 / 14 / 11.5 / 9",
-        "W": "21 / 20 / 19 / 18 / 17",
-        "E": "13 / 12.25 / 11.5 / 10.75 / 10",
-        "R": "120 / 100 / 80"
-    },
-    "Udyr": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Udyr.png",
-        "Q": "6 all ranks",
+    "Twisted Fate": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/TwistedFate.png",
+        "Q": "6 / 5.75 / 5.5 / 5.25 / 5",
         "W": "6 all ranks",
-        "E": "6 all ranks",
-        "R": "6 all ranks"
-    },
-    "Twitch": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Twitch.png",
-        "Q": "16 all ranks",
-        "W": "13 / 12 / 11 / 10 / 9",
-        "E": "12 / 11 / 10 / 9 / 8",
-        "R": "90 all ranks"
-    },
-    "Varus": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Varus.png",
-        "Q": "16 / 15 / 14 / 13 / 12",
-        "W": "40 all ranks",
-        "E": "18 / 16 / 14 / 12 / 10",
-        "R": "100 / 80 / 60"
-    },
-    "Vi": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Vi.png",
-        "Q": "12 / 10.5 / 9 / 7.5 / 6",
-        "W": "No CD",
-        "E": "1 all ranks <br> recharge: <br> 12 / 11 / 10 / 9 / 8",
-        "R": "140 / 115 / 90"
-    },
-    "Tryndamere": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Tryndamere.png",
-        "Q": "12 all ranks",
-        "W": "14 all ranks",
-        "E": "12 / 11 / 10 / 9 / 8",
-        "R": "120 / 100 / 80"
-    },
-    "Veigar": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Veigar.png",
-        "Q": "6 / 5.5 / 5 / 4.5 / 4",
-        "W": "8 all ranks",
-        "E": "20 / 18.5 / 17 / 15.5 / 14",
-        "R": "100 / 80 / 60"
+        "E": "No CD",
+        "R": "180 / 150 / 120"
     },
     "Urgot": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Urgot.png",
@@ -1035,19 +1000,19 @@
         "E": "16 / 15.5 / 15 / 14.5 / 14",
         "R": "100 / 85 / 70"
     },
-    "Velkoz": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Velkoz.png",
-        "Q": "7 all ranks",
-        "W": "1.5 all ranks <br> recharge: <br> 19 / 18 / 17 / 16 / 15",
-        "E": "14 / 13.5 / 13 / 12.5 / 12",
-        "R": "100 / 90 / 80"
+    "Twitch": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Twitch.png",
+        "Q": "16 all ranks",
+        "W": "13 / 12 / 11 / 10 / 9",
+        "E": "12 / 11 / 10 / 9 / 8",
+        "R": "90 all ranks"
     },
-    "Vex": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Vex.png",
-        "Q": "8 / 7 / 6 / 5 / 4",
-        "W": "16 / 15 / 14 / 13 / 12",
-        "E": "13 all ranks",
-        "R": "140 / 120 / 100"
+    "Udyr": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Udyr.png",
+        "Q": "6 all ranks",
+        "W": "6 all ranks",
+        "E": "6 all ranks",
+        "R": "6 all ranks"
     },
     "Vayne": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Vayne.png",
@@ -1056,18 +1021,60 @@
         "E": "20 / 18 / 16 / 14 / 12",
         "R": "100 / 85 / 70"
     },
-    "Viktor": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Viktor.png",
-        "Q": "9 / 8 / 7 / 6 / 5",
-        "W": "17 / 16 / 15 / 14 / 13",
-        "E": "12 / 11 / 10 / 9 / 8",
-        "R": "120 / 100 / 80"
+    "Varus": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Varus.png",
+        "Q": "16 / 15 / 14 / 13 / 12",
+        "W": "40 all ranks",
+        "E": "18 / 16 / 14 / 12 / 10",
+        "R": "100 / 80 / 60"
+    },
+    "Veigar": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Veigar.png",
+        "Q": "6 / 5.5 / 5 / 4.5 / 4",
+        "W": "8 all ranks",
+        "E": "20 / 18.5 / 17 / 15.5 / 14",
+        "R": "100 / 80 / 60"
+    },
+    "Vex": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Vex.png",
+        "Q": "8 / 7 / 6 / 5 / 4",
+        "W": "16 / 15 / 14 / 13 / 12",
+        "E": "13 all ranks",
+        "R": "140 / 120 / 100"
     },
     "Viego": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Viego.png",
         "Q": "5 / 4.5 / 4 / 3.5 / 3",
         "W": "8 all ranks",
         "E": "14 / 12 / 10 / 8 / 6",
+        "R": "120 / 100 / 80"
+    },
+    "Velkoz": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Velkoz.png",
+        "Q": "7 all ranks",
+        "W": "1.5 all ranks <br> recharge: <br> 19 / 18 / 17 / 16 / 15",
+        "E": "14 / 13.5 / 13 / 12.5 / 12",
+        "R": "100 / 90 / 80"
+    },
+    "Vi": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Vi.png",
+        "Q": "12 / 10.5 / 9 / 7.5 / 6",
+        "W": "No CD",
+        "E": "1 all ranks <br> recharge: <br> 12 / 11 / 10 / 9 / 8",
+        "R": "140 / 115 / 90"
+    },
+    "Xayah": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Xayah.png",
+        "Q": "10 / 9.5 / 9 / 8.5 / 8",
+        "W": "20 / 19 / 18 / 17 / 16",
+        "E": "12 / 11 / 10 / 9 / 8",
+        "R": "140 / 120 / 100"
+    },
+    "Viktor": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Viktor.png",
+        "Q": "9 / 8 / 7 / 6 / 5",
+        "W": "17 / 16 / 15 / 14 / 13",
+        "E": "12 / 11 / 10 / 9 / 8",
         "R": "120 / 100 / 80"
     },
     "Vladimir": {
@@ -1083,13 +1090,6 @@
         "W": "5 all ranks",
         "E": "14 all ranks",
         "R": "160 / 135 / 110"
-    },
-    "Xayah": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Xayah.png",
-        "Q": "10 / 9.5 / 9 / 8.5 / 8",
-        "W": "20 / 19 / 18 / 17 / 16",
-        "E": "12 / 11 / 10 / 9 / 8",
-        "R": "140 / 120 / 100"
     },
     "Warwick": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Warwick.png",
@@ -1119,27 +1119,6 @@
         "E": "0.5 / 0.4 / 0.3 / 0.2 / 0.1",
         "R": "70 / 50 / 30"
     },
-    "Yorick": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Yorick.png",
-        "Q": "6 / 5.5 / 5 / 4.5 / 4",
-        "W": "20 / 18 / 16 / 14 / 12",
-        "E": "12 / 11 / 10 / 9 / 8",
-        "R": "160 / 130 / 100"
-    },
-    "Zaahen": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Zaahen.png",
-        "Q": "9 / 8 / 7 / 6 / 5",
-        "W": "16 / 15 / 14 / 13 / 12",
-        "E": "10 / 9.5 / 9 / 8.5 / 8",
-        "R": "110 / 95 / 80"
-    },
-    "Zac": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zac.png",
-        "Q": "14 / 12.5 / 11 / 9.5 / 8",
-        "W": "5 all ranks",
-        "E": "22 / 19 / 16 / 13 / 10",
-        "R": "120 / 105 / 90"
-    },
     "Yunara": {
         "champIcon": "https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Yunara.png",
         "Q": "0 all ranks",
@@ -1154,33 +1133,33 @@
         "E": "22 / 19 / 16 / 13 / 10",
         "R": "120 / 100 / 80"
     },
-    "Zeri": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zeri.png",
-        "Q": "1 all ranks",
-        "W": "12 / 11 / 10 / 9 / 8",
-        "E": "22 / 21 / 20 / 19 / 18",
-        "R": "80 / 75 / 70"
+    "Yorick": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Yorick.png",
+        "Q": "6 / 5.5 / 5 / 4.5 / 4",
+        "W": "20 / 18 / 16 / 14 / 12",
+        "E": "12 / 11 / 10 / 9 / 8",
+        "R": "160 / 130 / 100"
     },
-    "Zyra": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zyra.png",
-        "Q": "7 / 6.5 / 6 / 5.5 / 5",
-        "W": "No CD <br> recharge: <br> 18 / 16 / 14 / 12 / 10",
-        "E": "12 all ranks",
-        "R": "110 / 100 / 90"
+    "Zaahen": {
+        "champIcon": "https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Zaahen.png",
+        "Q": "9 / 8 / 7 / 6 / 5",
+        "W": "16 / 15 / 14 / 13 / 12",
+        "E": "10 / 9.5 / 9 / 8.5 / 8",
+        "R": "110 / 95 / 80"
     },
-    "Zilean": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zilean.png",
-        "Q": "10 / 9.5 / 9 / 8.5 / 8",
-        "W": "14 / 12 / 10 / 8 / 6",
-        "E": "15 all ranks",
-        "R": "120 / 90 / 60"
-    },
-    "Zed": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zed.png",
-        "Q": "6 all ranks",
-        "W": "20 / 19 / 18 / 17 / 16",
-        "E": "5 / 4.5 / 4 / 3.5 / 3",
+    "Yuumi": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Yuumi.png",
+        "Q": "6.5 all ranks",
+        "W": "10 / 5 / 0",
+        "E": "10 all ranks",
         "R": "120 / 110 / 100"
+    },
+    "Zac": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zac.png",
+        "Q": "14 / 12.5 / 11 / 9.5 / 8",
+        "W": "5 all ranks",
+        "E": "22 / 19 / 16 / 13 / 10",
+        "R": "120 / 105 / 90"
     },
     "Ziggs": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ziggs.png",
@@ -1189,6 +1168,27 @@
         "E": "16 all ranks",
         "R": "120 / 95 / 70"
     },
+    "Zeri": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zeri.png",
+        "Q": "1 all ranks",
+        "W": "12 / 11 / 10 / 9 / 8",
+        "E": "22 / 21 / 20 / 19 / 18",
+        "R": "80 / 75 / 70"
+    },
+    "Zed": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zed.png",
+        "Q": "6 all ranks",
+        "W": "20 / 19 / 18 / 17 / 16",
+        "E": "5 / 4.5 / 4 / 3.5 / 3",
+        "R": "120 / 110 / 100"
+    },
+    "Zilean": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zilean.png",
+        "Q": "10 / 9.5 / 9 / 8.5 / 8",
+        "W": "14 / 12 / 10 / 8 / 6",
+        "E": "15 all ranks",
+        "R": "120 / 90 / 60"
+    },
     "Zoe": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zoe.png",
         "Q": "8.5 / 8 / 7.5 / 7 / 6.5",
@@ -1196,11 +1196,11 @@
         "E": "16 / 15 / 14 / 13 / 12",
         "R": "11 / 8 / 5"
     },
-    "Yuumi": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Yuumi.png",
-        "Q": "6.5 all ranks",
-        "W": "10 / 5 / 0",
-        "E": "10 all ranks",
-        "R": "120 / 110 / 100"
+    "Zyra": {
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Zyra.png",
+        "Q": "7 / 6.5 / 6 / 5.5 / 5",
+        "W": "No CD <br> recharge: <br> 18 / 16 / 14 / 12 / 10",
+        "E": "12 all ranks",
+        "R": "110 / 100 / 90"
     }
 }
