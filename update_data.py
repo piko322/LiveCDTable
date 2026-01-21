@@ -133,7 +133,9 @@ def get_all_champion_names(meraki=True):
         try:
             url = f"https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json"  # remove 'champions/' part
             r = requests.get(url, timeout=TIMEOUT)
-            return list(r.json().keys())
+            champion_name_list = list(r.json().keys())
+            champion_name_list.sort()
+            return champion_name_list
         except Exception as e:
             print("Error fetching champion list from Meraki:", e)
             return []
@@ -143,7 +145,9 @@ def get_all_champion_names(meraki=True):
             latest = r.json()[0]
             url = f"{DDRAGON_BASE}/{latest}/data/en_US/champion.json"
             data = requests.get(url, timeout=TIMEOUT).json()
-            return list(data.get('data', {}).keys())
+            champion_name_list = list(data.get('data', {}).keys())
+            champion_name_list.sort()
+            return champion_name_list
         except Exception as e:
             print("Error fetching champion list from Data Dragon:", e)
             return []
