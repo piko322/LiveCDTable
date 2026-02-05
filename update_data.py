@@ -254,8 +254,9 @@ if __name__ == "__main__":
     if all_champs:
         cooldowns, _ = get_champion_cooldowns(all_champs, current_version)
         cooldowns = champion_cooldowns_renamed(cooldowns)
+        sorted_cooldowns = dict(sorted(cooldowns.items()))
         with open(fp, "w") as f:
-            json.dump(cooldowns, f, indent=4)
+            json.dump(sorted_cooldowns, f, indent=4)
         print(f"Cooldown data saved to {fp}.")
     else:
         print("No champion data available.")
