@@ -56,10 +56,10 @@
         "R": "4 / 3 / 2"
     },
     "Annie": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Annie.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Annie.png",
         "Q": "4 all ranks",
         "W": "7 all ranks",
-        "E": "10 all ranks",
+        "E": "12 / 11.5 / 11 / 10.5 / 10",
         "R": "130 / 115 / 100"
     },
     "Aphelios": {
@@ -308,11 +308,11 @@
         "R": "140 / 120 / 100"
     },
     "Heimerdinger": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Heimerdinger.png",
-        "Q": "1 all ranks",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Heimerdinger.png",
+        "Q": "1 all ranks <br> recharge: <br> 20 all ranks",
         "W": "11 / 10 / 9 / 8 / 7",
         "E": "11 all ranks",
-        "R": "100 / 85 / 70"
+        "R": "100 / 92.5 / 85 / 77.5 / 70"
     },
     "Hwei": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Hwei.png",
@@ -658,7 +658,7 @@
         "R": "110 / 95 / 80"
     },
     "Nocturne": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nocturne.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nocturne.png",
         "Q": "8 all ranks",
         "W": "20 / 18 / 16 / 14 / 12",
         "E": "15 / 14 / 13 / 12 / 11",
@@ -784,10 +784,10 @@
         "R": "120 / 90 / 60"
     },
     "Rumble": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Rumble.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Rumble.png",
         "Q": "10 / 9 / 8 / 7 / 6",
         "W": "6 all ranks",
-        "E": "0.5 all ranks",
+        "E": "0.5 all ranks <br> recharge: <br> 6 all ranks",
         "R": "130 / 105 / 80"
     },
     "Ryze": {
@@ -805,11 +805,11 @@
         "R": "5 all ranks"
     },
     "Sejuani": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Sejuani.png",
-        "Q": "18 / 16.5 / 15 / 13.5 / 12",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Sejuani.png",
+        "Q": "19 / 17.5 / 16 / 14.5 / 13",
         "W": "9 / 8 / 7 / 6 / 5",
         "E": "1.5 all ranks",
-        "R": "120 / 105 / 90"
+        "R": "130 / 110 / 90"
     },
     "Senna": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Senna.png",
