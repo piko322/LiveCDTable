@@ -231,7 +231,7 @@
         "R": "120 / 105 / 90"
     },
     "Fiddlesticks": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fiddlesticks.png",
+        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/champion/Fiddlesticks.png",
         "Q": "15 / 14.5 / 14 / 13.5 / 13",
         "W": "10 / 9.5 / 9 / 8.5 / 8",
         "E": "10 / 9 / 8 / 7 / 6",
@@ -616,7 +616,7 @@
         "R": "110 / 95 / 80"
     },
     "Nami": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nami.png",
+        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.12.1/img/champion/Nami.png",
         "Q": "12 / 11 / 10 / 9 / 8",
         "W": "10 all ranks",
         "E": "11 all ranks",
