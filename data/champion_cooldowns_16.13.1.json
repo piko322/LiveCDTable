@@ -63,10 +63,10 @@
         "R": "130 / 115 / 100"
     },
     "Aphelios": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/champion/Aphelios.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Aphelios.png",
         "Q": "I just can't man, this dude has like 5 different Q abilities\nand it's formatted in such a messed up way that I give up",
         "W": "0.8 all ranks",
-        "E": "0 all ranks",
+        "E": "No CD",
         "R": "120 / 110 / 100"
     },
     "Ashe": {
@@ -98,9 +98,9 @@
         "R": "120 / 105 / 90"
     },
     "Bard": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/champion/Bard.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Bard.png",
         "Q": "11 / 10 / 9 / 8 / 7",
-        "W": "0 all ranks",
+        "W": "No CD <br> recharge: <br> 18 all ranks",
         "E": "22 / 20.5 / 19 / 17.5 / 16",
         "R": "110 / 95 / 80"
     },
@@ -133,7 +133,7 @@
         "R": "120 / 100 / 80"
     },
     "Briar": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/champion/Briar.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Briar.png",
         "Q": "13 / 12 / 11 / 10 / 9",
         "W": "14 / 13 / 12 / 11 / 10",
         "E": "16 all ranks",
