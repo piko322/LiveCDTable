@@ -616,7 +616,7 @@
         "R": "120 / 110 / 100"
     },
     "Naafiri": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Naafiri.png",
+        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/Naafiri.png",
         "Q": "9 / 8.5 / 8 / 7.5 / 7",
         "W": "26 / 24 / 22 / 20 / 18",
         "E": "11 / 10 / 9 / 8 / 7",
@@ -721,7 +721,7 @@
         "R": "100 / 85 / 70"
     },
     "Qiyana": {
-        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Qiyana.png",
+        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.18.1/img/champion/Qiyana.png",
         "Q": "7 all ranks",
         "W": "7 all ranks",
         "E": "11 / 10 / 9 / 8 / 7",
