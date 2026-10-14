@@ -70,10 +70,10 @@
         "R": "120 / 110 / 100"
     },
     "Ashe": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Ashe.png",
-        "Q": "0 all ranks",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Ashe.png",
+        "Q": "No CD",
         "W": "18 / 14.5 / 11 / 7.5 / 4",
-        "E": "5 all ranks",
+        "E": "5 all ranks <br> recharge: <br> 90 / 80 / 70 / 60 / 50",
         "R": "100 / 80 / 60"
     },
     "Aurelion Sol": {
@@ -133,7 +133,7 @@
         "R": "120 / 100 / 80"
     },
     "Briar": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Briar.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Briar.png",
         "Q": "13 / 12 / 11 / 10 / 9",
         "W": "14 / 13 / 12 / 11 / 10",
         "E": "16 all ranks",
@@ -238,7 +238,7 @@
         "R": "140 / 110 / 80"
     },
     "Fiora": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Fiora.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Fiora.png",
         "Q": "13 / 11.25 / 9.5 / 7.75 / 6",
         "W": "24 / 22 / 20 / 18 / 16",
         "E": "11 / 10 / 9 / 8 / 7",
@@ -329,10 +329,10 @@
         "R": "120 / 95 / 70"
     },
     "Irelia": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Irelia.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Irelia.png",
         "Q": "10 / 9 / 8 / 7 / 6",
         "W": "20 / 18 / 16 / 14 / 12",
-        "E": "16 / 14.5 / 13 / 11.5 / 10",
+        "E": "16 / 15 / 14 / 13 / 12",
         "R": "125 / 105 / 85"
     },
     "Ivern": {
@@ -413,8 +413,8 @@
         "R": "40 / 38 / 36 / 34"
     },
     "Karthus": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Karthus.png",
-        "Q": "0 all ranks",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Karthus.png",
+        "Q": "1 all ranks",
         "W": "15 all ranks",
         "E": "0.5 all ranks",
         "R": "200 / 180 / 160"
@@ -434,7 +434,7 @@
         "R": "75 / 60 / 45"
     },
     "Kayle": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Kayle.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kayle.png",
         "Q": "12 / 11 / 10 / 9 / 8",
         "W": "15 all ranks",
         "E": "8 / 7.5 / 7 / 6.5 / 6",
@@ -469,9 +469,9 @@
         "R": "180 / 150 / 120"
     },
     "Kled": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Kled.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Kled.png",
         "Q": "11 / 10 / 9 / 8 / 7",
-        "W": "13 / 12 / 11 / 10 / 9",
+        "W": "11 / 9.5 / 8 / 6.5 / 5",
         "E": "13 / 12 / 11 / 10 / 9",
         "R": "140 / 125 / 110"
     },
@@ -553,7 +553,7 @@
         "R": "130 / 105 / 80"
     },
     "Malzahar": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Malzahar.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Malzahar.png",
         "Q": "6 all ranks",
         "W": "8 all ranks",
         "E": "11 / 10 / 9 / 8 / 7",
@@ -623,7 +623,7 @@
         "R": "110 / 95 / 80"
     },
     "Nami": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Nami.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nami.png",
         "Q": "12 / 11 / 10 / 9 / 8",
         "W": "10 all ranks",
         "E": "11 all ranks",
@@ -651,7 +651,7 @@
         "R": "120 / 105 / 90"
     },
     "Nidalee": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Nidalee.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nidalee.png",
         "Q": "6 all ranks",
         "W": "13 / 12 / 11 / 10 / 9",
         "E": "12 all ranks",
@@ -665,11 +665,11 @@
         "R": "110 / 95 / 80"
     },
     "Nocturne": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Nocturne.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nocturne.png",
         "Q": "8 all ranks",
         "W": "20 / 18 / 16 / 14 / 12",
         "E": "15 / 14 / 13 / 12 / 11",
-        "R": "160 / 130 / 100"
+        "R": "140 / 115 / 90"
     },
     "Nunu": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Nunu.png",
@@ -700,7 +700,7 @@
         "R": "140 / 120 / 100"
     },
     "Pantheon": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Pantheon.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Pantheon.png",
         "Q": "11 / 10.25 / 9.5 / 8.75 / 8",
         "W": "13 / 12 / 11 / 10 / 9",
         "E": "22 / 21 / 20 / 19 / 18",
@@ -784,7 +784,7 @@
         "R": "110 / 100 / 90"
     },
     "Riven": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Riven.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Riven.png",
         "Q": "13 all ranks",
         "W": "11 / 10 / 9 / 8 / 7",
         "E": "10 / 9 / 8 / 7 / 6",
@@ -819,7 +819,7 @@
         "R": "130 / 110 / 90"
     },
     "Senna": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Senna.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Senna.png",
         "Q": "15 all ranks",
         "W": "11 all ranks",
         "E": "26 / 24.5 / 23 / 21.5 / 20",
@@ -1036,11 +1036,11 @@
         "R": "100 / 85 / 70"
     },
     "Veigar": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Veigar.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Veigar.png",
         "Q": "6 / 5.5 / 5 / 4.5 / 4",
-        "W": "0 all ranks",
+        "W": "8 all ranks",
         "E": "20 / 18.5 / 17 / 15.5 / 14",
-        "R": "120 / 90 / 60"
+        "R": "100 / 80 / 60"
     },
     "Velkoz": {
         "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Velkoz.png",
@@ -1078,7 +1078,7 @@
         "R": "120 / 100 / 80"
     },
     "Vladimir": {
-        "champIcon": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/champion/Vladimir.png",
+        "champIcon": "http://ddragon.leagueoflegends.com/cdn/15.9.1/img/champion/Vladimir.png",
         "Q": "9 / 7.9 / 6.8 / 5.7 / 4.6",
         "W": "28 / 25 / 22 / 19 / 16",
         "E": "13 / 11 / 9 / 7 / 5",
